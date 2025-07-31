@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="5" parallel="tests">
+<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+		<listener class-name="utilities.RetryListener" />
+	</listeners>
+	<test name="test1">
+		<parameter name="os" value="windows" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testCases.TC001_AccountRegistration" />
+		</classes>
+	</test> <!-- test -->
+
+	<test name="test2">
+		<parameter name="os" value="windows" />
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testCases.TC003_LoginDDT" />
+		</classes>
+	</test> <!-- test -->
+
+	<test name="test3">
+		<parameter name="os" value="windows" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="testCases.TC002_LoginTest" />
+		</classes>
+	</test> <!-- test -->
+</suite> <!-- Suite -->
+
+
