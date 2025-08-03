@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" thread-count="5">
-	
+<!-- 	
   <listeners>
 	  <listener class-name="utilities.ExtentReportManager" />
   </listeners>
   
-   
+    -->
   
   <test name="Linux-Chrome">
     <parameter name="os" value="Linux"/>
