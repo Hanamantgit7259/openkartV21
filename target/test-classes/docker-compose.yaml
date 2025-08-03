@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   selenium-hub:
@@ -12,24 +12,30 @@ services:
   node-chrome:
     image: selenium/node-chrome-debug:4.34.0
     container_name: node-chrome
+    shm_size: 2g   # prevents browser crashes
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
     ports:
-      - "5900:5900"
+      - "5900:5900"   # VNC for Chrome (optional)
+    depends_on:
+      - selenium-hub
     networks:
       - grid
 
   node-firefox:
     image: selenium/node-firefox-debug:4.34.0
     container_name: node-firefox
+    shm_size: 2g
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
     ports:
-      - "5901:5900"
+      - "5901:5900"   # VNC for Firefox (optional)
+    depends_on:
+      - selenium-hub
     networks:
       - grid
 
@@ -42,6 +48,7 @@ services:
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock   # allow Jenkins to talk to Docker
     networks:
       - grid
     depends_on:
