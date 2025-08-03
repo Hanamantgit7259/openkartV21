@@ -11,7 +11,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 	<!-- 	<class name="testCases.TC001_AccountRegistration" /> -->
-			<class name="testCases.TC002_LoginTest" />
+			<class name="testCases.NewTest" />
 	<!-- 		<class name="testCases.TC003_LoginDDT" />  -->	
 		</classes>
 	</test> <!-- test -->
