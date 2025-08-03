@@ -8,23 +8,12 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <build>
-        <pluginManagement>
-            <plugins>
-                <!-- Optional: Define version here if reused in submodules -->
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.14.0</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-
         <plugins>
             <!-- Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version><!--$NO-MVN-MAN-VER$-->
+                <version>3.14.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -81,7 +70,6 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.25.0</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- Commons IO -->
@@ -91,11 +79,18 @@
             <version>2.19.0</version>
         </dependency>
 
-        <!-- Commons Lang -->
+        <!-- Commons Lang (still useful for other utils) -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.17.0</version>
+        </dependency>
+
+        <!-- ✅ Commons Text for RandomStringGenerator -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.10.0</version>
         </dependency>
 
         <!-- TestNG -->
