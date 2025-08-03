@@ -45,7 +45,7 @@ public class BaseClass {
 
         logger = LogManager.getLogger(this.getClass());
 
-        // Remote Execution (Selenium Grid in Docker)
+        // 🔹 Remote Execution (Selenium Grid in Docker)
         if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
             URI hubUri = new URI("http://selenium-hub:4444/wd/hub");  // inside docker network
 
@@ -55,6 +55,7 @@ public class BaseClass {
                     chromeOptions.addArguments("--no-sandbox");
                     chromeOptions.addArguments("--disable-dev-shm-usage");
                     chromeOptions.addArguments("--disable-gpu");
+                    chromeOptions.addArguments("--remote-allow-origins=*"); // 🔹 prevents Chrome 111+ errors
                     driver = new RemoteWebDriver(hubUri.toURL(), chromeOptions);
                     break;
 
@@ -69,11 +70,11 @@ public class BaseClass {
                     break;
 
                 default:
-                    throw new IllegalArgumentException("No matching browser for remote execution: " + br);
+                    throw new IllegalArgumentException("❌ No matching browser for remote execution: " + br);
             }
         }
 
-        // Local Execution
+        // 🔹 Local Execution
         else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
             switch (br.toLowerCase()) {
                 case "chrome":
@@ -86,10 +87,11 @@ public class BaseClass {
                     driver = new EdgeDriver();
                     break;
                 default:
-                    throw new IllegalArgumentException("Invalid local browser name: " + br);
+                    throw new IllegalArgumentException("❌ Invalid local browser name: " + br);
             }
         }
 
+        // Common setup
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("appURL2"));
@@ -105,17 +107,17 @@ public class BaseClass {
 
     // ✅ Random Generators using Commons Text
     public String randomeString() {
-        RandomStringGenerator generator = new RandomStringGenerator.Builder()
+        return new RandomStringGenerator.Builder()
                 .withinRange('a', 'z')
-                .build();
-        return generator.generate(5);
+                .build()
+                .generate(5);
     }
 
     public String randomeNumber() {
-        RandomStringGenerator generator = new RandomStringGenerator.Builder()
+        return new RandomStringGenerator.Builder()
                 .withinRange('0', '9')
-                .build();
-        return generator.generate(10);
+                .build()
+                .generate(10);
     }
 
     public String randomeAlphaNumberic() {
@@ -134,13 +136,16 @@ public class BaseClass {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+        String targetFilePath = System.getProperty("user.dir") +
+                File.separator + "screenshots" + File.separator +
+                tname + "_" + timeStamp + ".png";
+
         File targetFile = new File(targetFilePath);
 
         if (sourceFile.renameTo(targetFile)) {
             return targetFilePath;
         } else {
-            throw new IOException("Failed to save screenshot at " + targetFilePath);
+            throw new IOException("❌ Failed to save screenshot at " + targetFilePath);
         }
     }
 }
