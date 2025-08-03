@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   selenium-hub:
     image: selenium/hub:4.34.0
@@ -10,32 +8,26 @@ services:
       - grid
 
   node-chrome:
-    image: selenium/node-chrome-debug:4.34.0
+    image: selenium/node-chrome:4.34.0   # ✅ remove -debug
     container_name: node-chrome
-    shm_size: 2g   # prevents browser crashes
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
     ports:
-      - "5900:5900"   # VNC for Chrome (optional)
-    depends_on:
-      - selenium-hub
+      - "5900:5900"   # optional, remove if not using VNC
     networks:
       - grid
 
   node-firefox:
-    image: selenium/node-firefox-debug:4.34.0
+    image: selenium/node-firefox:4.34.0   # ✅ remove -debug
     container_name: node-firefox
-    shm_size: 2g
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
     ports:
-      - "5901:5900"   # VNC for Firefox (optional)
-    depends_on:
-      - selenium-hub
+      - "5901:5900"   # optional
     networks:
       - grid
 
@@ -48,7 +40,6 @@ services:
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock   # allow Jenkins to talk to Docker
     networks:
       - grid
     depends_on:
