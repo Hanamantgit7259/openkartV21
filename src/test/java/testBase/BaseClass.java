@@ -11,6 +11,7 @@ import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.text.RandomStringGenerator;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -132,16 +133,19 @@ public class BaseClass {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String targetFilePath = System.getProperty("user.dir") +
-                File.separator + "screenshots" + File.separator +
-                tname + "_" + timeStamp + ".png";
+        // Ensure screenshots folder exists
+        String screenshotDirPath = System.getProperty("user.dir") + File.separator + "screenshots";
+        File screenshotDir = new File(screenshotDirPath);
+        if (!screenshotDir.exists()) {
+            screenshotDir.mkdirs();
+        }
 
+        String targetFilePath = screenshotDirPath + File.separator + tname + "_" + timeStamp + ".png";
         File targetFile = new File(targetFilePath);
 
-        if (sourceFile.renameTo(targetFile)) {
-            return targetFilePath;
-        } else {
-            throw new IOException("❌ Failed to save screenshot at " + targetFilePath);
-        }
+        // Copy screenshot using safe method
+        FileUtils.copyFile(sourceFile, targetFile);
+
+        return targetFilePath;
     }
 }
