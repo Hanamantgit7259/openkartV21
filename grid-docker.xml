@@ -1,28 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" thread-count="5">
-
-  <listeners>
-    <listener class-name="utilities.ExtentReportManager"/>
-  </listeners>
-
-  <test name="Linux-Chrome">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testCases.TC002_LoginTest"/>
-			<!--   <class name="testCases.TC001_AccountRegistration" /> --> 
-    </classes>
-  </test>
-
-  <!--
-  <test name="Linux-Firefox">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/> 
-      <class name="testCases.TC002_LoginTest"/> 
-    </classes>
-  </test>
-  -->
-
+<suite name="DockerSuite" verbose="1">
+    <test name="OpencartTests">
+        <classes>
+            <class name="testCases.TC001_AccountRegistration"/>
+            <class name="testCases.TC002_LoginTest"/>
+        </classes>
+    </test>
 </suite>
