@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -36,7 +35,7 @@ public class BaseClass {
 
     @BeforeClass(groups= {"Sanity","Regression","Master"})
     @Parameters({"os","browser"})
-    public void setup(String os, String br) throws IOException, URISyntaxException
+    public void setup(String os, String br) throws IOException
     {
         // Load config.properties
         FileReader file = new FileReader("./src//test//resources//config.properties");
@@ -45,35 +44,38 @@ public class BaseClass {
 
         logger = LogManager.getLogger(this.getClass());
 
-        String env = p.getProperty("execution_env").trim();
+        String env = p.getProperty("execution_env"); // local or remote
+        String appUrl = p.getProperty("appURL2");
 
         if(env.equalsIgnoreCase("remote"))
         {
-            // ✅ Correct Hub URL for Selenium Grid 4 (no /wd/hub)
-            String hubUrl = "http://localhost:4444";
+            // ✅ Inside Docker (Jenkins) we use selenium-hub, outside Docker use localhost
+            String hubHost = System.getenv("HUB_HOST") != null ? System.getenv("HUB_HOST") : "selenium-hub";
+            String hubUrl = "http://" + hubHost + ":4444";
 
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-                driver = new RemoteWebDriver(new URI(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
-                driver = new RemoteWebDriver(new URI(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-                driver = new RemoteWebDriver(new URI(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else {
-                throw new IllegalArgumentException("❌ No matching browser found for remote execution: " + br);
+                System.out.println("No matching browser found for remote execution.");
+                return;
             }
         }
         else if(env.equalsIgnoreCase("local"))
         {
-            // 🔹 Local execution (headless for Jenkins/Docker compatibility)
+            // 🔹 Local execution (on laptop)
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
@@ -90,17 +92,14 @@ public class BaseClass {
                 driver = new EdgeDriver(options);
 
             } else {
-                throw new IllegalArgumentException("❌ Invalid browser name for local execution: " + br);
+                System.out.println("Invalid browser name for local execution.");
+                return;
             }
         }
-        else {
-            throw new IllegalArgumentException("❌ Unknown execution environment: " + env);
-        }
 
-        // 🔹 Common setup
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get(p.getProperty("appURL2")); // URL from config.properties
+        driver.get(appUrl); // URL from config.properties
         driver.manage().window().maximize();
     }
 
