@@ -239,3 +239,84 @@
 2025-08-06 03:07:48 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
 2025-08-06 03:07:52 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
 2025-08-06 03:07:54 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2025-08-06 03:08:02 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:08:15 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:08:27 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:08:38 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:08:45 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
+2025-08-06 03:08:45 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:08:50 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
+2025-08-06 03:08:50 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:09:05 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
+2025-08-06 03:09:05 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:09:10 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
+2025-08-06 03:09:10 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 03:09:24 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
+2025-08-06 03:09:57 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 03:09:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
+
+2025-08-06 03:10:02 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-06 03:10:02 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-06 03:10:04 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-06 03:10:04 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-06 03:10:08 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-06 03:10:08 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-06 03:10:08 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-06 03:10:12 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2025-08-06 03:10:15 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2025-08-06 03:11:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 03:11:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
+
+2025-08-06 03:11:05 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-06 03:11:06 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-06 03:11:07 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-06 03:11:07 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-06 03:11:09 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-06 03:11:09 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-06 03:11:09 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-06 03:14:37 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 03:14:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
+
+2025-08-06 03:14:42 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-06 03:14:43 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-06 03:14:44 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-06 03:14:44 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-06 03:14:46 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-06 03:14:46 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-06 03:14:46 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-06 03:16:24 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 03:16:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
+
+2025-08-06 03:16:29 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-06 03:16:29 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-06 03:16:30 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-06 03:16:30 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-06 03:16:33 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-06 03:16:33 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-06 03:16:33 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-06 03:17:42 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 03:17:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
+
+2025-08-06 03:17:47 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-06 03:17:48 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-06 03:17:48 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-06 03:17:48 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-06 03:17:50 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-06 03:17:50 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-06 03:17:50 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-06 03:21:10 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 03:21:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
+
+2025-08-06 03:21:15 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-06 03:21:15 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-06 03:21:16 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-06 03:21:16 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-06 03:21:19 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-06 03:21:19 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-06 03:21:19 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
