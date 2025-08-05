@@ -3,7 +3,7 @@ package testBase;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URI;
+import java.net.URL;
 import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -62,18 +62,18 @@ public class BaseClass {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
                 options.addArguments("window-size=1920,1080");
-                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(new URL(hubUrl), options);
 
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless", "--width=1920", "--height=1080");
-                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(new URL(hubUrl), options);
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
                 options.addArguments("window-size=1920,1080");
-                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(new URL(hubUrl), options);
 
             } else {
                 logger.error("❌ No matching browser found for remote execution.");

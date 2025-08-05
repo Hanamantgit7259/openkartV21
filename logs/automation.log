@@ -46,3 +46,30 @@
 2025-08-06 02:28:21 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
 2025-08-06 02:28:25 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
 2025-08-06 02:28:27 INFO  TC002_LoginTest:130 - ✅ Browser closed.
+2025-08-06 02:35:22 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 02:35:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml
+
+2025-08-06 02:35:23 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: chrome
+2025-08-06 02:35:23 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
+2025-08-06 02:35:32 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
+2025-08-06 02:35:32 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
+2025-08-06 02:35:33 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
+2025-08-06 02:35:34 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
+2025-08-06 02:35:34 INFO  TC001_AccountRegistration:29 -  Providing customer details 
+2025-08-06 02:35:38 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
+2025-08-06 02:35:38 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
+2025-08-06 02:35:38 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
+2025-08-06 02:35:39 INFO  TC001_AccountRegistration:42 - Validating expected message
+2025-08-06 02:35:39 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
+2025-08-06 02:35:40 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
+2025-08-06 02:35:40 INFO  TC001_AccountRegistration:29 -  Providing customer details 
+2025-08-06 02:35:43 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
+2025-08-06 02:35:43 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: chrome
+2025-08-06 02:35:43 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
+2025-08-06 02:35:50 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
+2025-08-06 02:35:50 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
+2025-08-06 02:35:53 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
+2025-08-06 02:35:55 INFO  TC002_LoginTest:130 - ✅ Browser closed.
+2025-08-06 02:35:55 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: edge
+2025-08-06 02:38:55 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: edge
