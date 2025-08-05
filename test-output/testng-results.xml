@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-06T02:46:48 IST" name="OpenCart Suite" finished-at="2025-08-06T02:46:48 IST" duration-ms="0">
+  <suite started-at="2025-08-06T02:57:42 IST" name="OpenCart Suite" finished-at="2025-08-06T02:57:42 IST" duration-ms="0">
     <groups>
       <group name="Master">
         <method signature="TC001_AccountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistration@2a898881]" name="verify_account_registration" class="testCases.TC001_AccountRegistration"/>

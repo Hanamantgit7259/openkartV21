@@ -1,35 +1,36 @@
-<suite name="OpenCart Suite" parallel="tests" thread-count="2">
-<listeners>
-		<listener class-name="utilities.ExtentReportManager" />
-		<listener class-name="utilities.RetryListener" />
-	</listeners>
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="Suite" thread-count="5">
 	
-	<!--  
-    <test name="Windows Chrome Test">
-        <parameter name="os" value="Windows" />
-        <parameter name="browser" value="chrome" />
-        <classes>
-            <class name="testCases.TC001_AccountRegistration" />
-            <class name="testCases.TC002_LoginTest" />
-        </classes>
-    </test>
--->
-    <test name="Linux Firefox Test">
-        <parameter name="os" value="Linux" />
-        <parameter name="browser" value="firefox" />
-        <classes>
-            <class name="testCases.TC001_AccountRegistration" />
-            <class name="testCases.TC002_LoginTest" />
-        </classes>
-    </test>
-<!--
-    <test name="Windows Edge Test">
-        <parameter name="os" value="Windows" />
-        <parameter name="browser" value="edge" />
-        <classes>
-            <class name="testCases.TC001_AccountRegistration" />
-            <class name="testCases.TC002_LoginTest" />
-        </classes>
-    </test>
-      -->
-</suite>
+  <listeners>
+	  <listener class-name="utilities.ExtentReportManager" />
+  </listeners>
+  
+   
+  
+  <test name="Linux-Chrome">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="chrome"/>
+     
+    <classes>
+           <class name="testCases.TC001_AccountRegistrationTest"/> 
+     		<class name="testCases.TC002_LoginTest"/> 
+    </classes>
+  </test> 
+  
+ 
+
+ <test name="Linux-Firefox">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="firefox"/>
+     
+    <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/> 
+    		 <class name="testCases.TC002_LoginTest"/> 
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->
