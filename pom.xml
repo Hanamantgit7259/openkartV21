@@ -32,7 +32,7 @@
 
                     <!-- Run your TestNG suite -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>grid-docker.xml</suiteXmlFile>
+                        <suiteXmlFile>grouping.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
                     <!-- Ensure forked JVM doesn’t hang -->
