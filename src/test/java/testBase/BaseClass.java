@@ -27,6 +27,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import org.apache.logging.log4j.LogManager;
@@ -40,7 +41,7 @@ public class BaseClass {
 
     @BeforeClass(groups={"Sanity","Regression","Master"})
     @Parameters({"os","browser"})
-    public void setup(String os, String br) throws IOException {
+    public void setup(@Optional("Windows") String os, @Optional("chrome") String br) throws IOException {
         // Load config.properties
         FileReader file = new FileReader("./src/test/resources/config.properties");
         p = new Properties();
@@ -48,13 +49,13 @@ public class BaseClass {
 
         logger = LogManager.getLogger(this.getClass());
 
-        String env = p.getProperty("execution_env", "local"); // default = local
+        String env = p.getProperty("execution_env", "local"); // local or remote
         String appUrl = p.getProperty("appURL2");
 
         logger.info("🔹 Starting tests | Env: " + env + " | OS: " + os + " | Browser: " + br);
 
         if(env.equalsIgnoreCase("remote")) {
-            String hubHost = System.getenv("HUB_HOST") != null ? System.getenv("HUB_HOST") : "selenium-hub";
+            String hubHost = System.getenv("HUB_HOST") != null ? System.getenv("HUB_HOST") : "localhost";
             String hubUrl = "http://" + hubHost + ":4444";
 
             if(br.equalsIgnoreCase("chrome")) {

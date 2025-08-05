@@ -9,6 +9,9 @@ utilities\RetryAnalyzer.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
 testCases\TC003_LoginDDT.class
+testCases\TC005_Search.class
 utilities\ExtentReportManager.class
 testCases\TC001_AccountRegistration.class
 utilities\DataProviders.class
+testCases\TC004_Demo.class
+testCases\NewTest.class
