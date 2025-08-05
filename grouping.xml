@@ -6,7 +6,7 @@
 	</listeners>
 	<groups>
 		<run>
-			<!-- <include name="Master" /> -->
+			 <include name="Master" />  
 			<!-- <include name="Sanity" /> -->
 			<include name="Regression" />
 			<include name="Datadriven" />
