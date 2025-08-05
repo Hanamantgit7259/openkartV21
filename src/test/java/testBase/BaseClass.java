@@ -52,24 +52,17 @@ public class BaseClass {
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-             //   driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
                 driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(), options);
 
-                
-                
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
-              //  driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
                 driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(), options);
-
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-              //  driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
                 driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(), options);
-
 
             } else {
                 System.out.println("No matching browser found for remote execution.");
@@ -78,13 +71,22 @@ public class BaseClass {
         }
         else if(env.equalsIgnoreCase("local"))
         {
-            // 🔹 Local execution (normal desktop browsers)
+            // 🔹 Local execution (headless for Jenkins/Docker compatibility)
             if(br.equalsIgnoreCase("chrome")) {
-                driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
+                driver = new ChromeDriver(options);
+
             } else if(br.equalsIgnoreCase("firefox")) {
-                driver = new FirefoxDriver();
+                FirefoxOptions options = new FirefoxOptions();
+                options.addArguments("--headless");
+                driver = new FirefoxDriver(options);
+
             } else if(br.equalsIgnoreCase("edge")) {
-                driver = new EdgeDriver();
+                EdgeOptions options = new EdgeOptions();
+                options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
+                driver = new EdgeDriver(options);
+
             } else {
                 System.out.println("Invalid browser name for local execution.");
                 return;
