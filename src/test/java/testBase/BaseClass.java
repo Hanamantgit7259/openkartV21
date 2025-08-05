@@ -48,21 +48,23 @@ public class BaseClass {
 
         if(env.equalsIgnoreCase("remote"))
         {
-            // 🔹 Remote execution (Docker Grid, Jenkins)
+            // ✅ Correct Hub URL for Docker/Jenkins setup
+            String hubUrl = "http://localhost:4442/wd/hub";
+
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-                driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(), options);
+                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
-                driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(), options);
+                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-                driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(), options);
+                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else {
                 System.out.println("No matching browser found for remote execution.");
@@ -107,7 +109,7 @@ public class BaseClass {
         }
     }
 
-    // ✅ Random generators using Java's Random (no deprecation warnings)
+    // ✅ Random generators
     public String randomeString() {
         int leftLimit = 97; // 'a'
         int rightLimit = 122; // 'z'
@@ -130,7 +132,7 @@ public class BaseClass {
         return randomeString().substring(0, 3) + "@" + randomeNumber().substring(0, 3);
     }
 
-    // Screenshot utility
+    // ✅ Screenshot utility
     public String captureScreen(String tname) throws IOException {
         String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 

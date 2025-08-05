@@ -3,19 +3,11 @@
 <suite name="Failed suite [Suite]" verbose="0">
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
-    <listener class-name="utilities.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="test(failed)" verbose="0">
-    <parameter name="os" value="linux"/>
+  <test thread-count="5" name="Linux-Chrome(failed)" verbose="0">
+    <parameter name="os" value="Linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_LoginDDT">
-        <methods>
-          <include name="verify_loginDDT"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC003_LoginDDT -->
       <class name="testCases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>
@@ -23,13 +15,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistration">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verify_account_registration"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistration -->
     </classes>
-  </test> <!-- test(failed) -->
+  </test> <!-- Linux-Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

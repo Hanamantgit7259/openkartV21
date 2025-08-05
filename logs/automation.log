@@ -1,15 +1,27 @@
-2025-08-05 22:58:10 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-05 22:58:18 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-05 22:58:20 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-05 22:59:30 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-05 22:59:34 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-05 22:59:36 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-05 23:02:25 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-05 23:02:40 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-05 23:02:44 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-05 23:03:51 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-05 23:03:56 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-05 23:03:59 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-05 23:05:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-05 23:05:07 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-05 23:05:10 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2025-08-06 00:27:21 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 00:27:30 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2025-08-06 00:28:29 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-06 00:28:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
+
+2025-08-06 00:28:33 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
+2025-08-06 00:28:43 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
+2025-08-06 00:28:53 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
+2025-08-06 00:29:09 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:29:20 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:29:30 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:29:40 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:29:50 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:30:01 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:30:11 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:30:21 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:30:31 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:30:41 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:30:51 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:31:01 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:31:12 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:31:22 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:31:32 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:31:42 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:31:52 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-06 00:32:02 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
