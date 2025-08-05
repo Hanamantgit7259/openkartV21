@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -49,7 +50,7 @@ public class BaseClass {
 
         if(env.equalsIgnoreCase("remote"))
         {
-            // ✅ Inside Docker (Jenkins) we use selenium-hub, outside Docker use localhost
+            // ✅ Inside Docker (Jenkins) use selenium-hub, outside Docker use localhost
             String hubHost = System.getenv("HUB_HOST") != null ? System.getenv("HUB_HOST") : "selenium-hub";
             String hubUrl = "http://" + hubHost + ":4444";
 
@@ -99,8 +100,11 @@ public class BaseClass {
 
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get(appUrl); // URL from config.properties
-        driver.manage().window().maximize();
+        driver.get(appUrl);
+
+        // ❌ REMOVE maximize() -> it requires X11 in Jenkins
+        // ✅ Use fixed resolution instead
+        driver.manage().window().setSize(new Dimension(1920, 1080));
     }
 
     @AfterClass(groups= {"Sanity","Regression","Master"})
