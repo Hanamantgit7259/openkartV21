@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -35,7 +36,7 @@ public class BaseClass {
 
     @BeforeClass(groups= {"Sanity","Regression","Master"})
     @Parameters({"os","browser"})
-    public void setup(String os, String br) throws IOException
+    public void setup(String os, String br) throws IOException, URISyntaxException
     {
         // Load config.properties
         FileReader file = new FileReader("./src//test//resources//config.properties");
@@ -44,31 +45,30 @@ public class BaseClass {
 
         logger = LogManager.getLogger(this.getClass());
 
-        String env = p.getProperty("execution_env");
+        String env = p.getProperty("execution_env").trim();
 
         if(env.equalsIgnoreCase("remote"))
         {
-            // ✅ Correct Hub URL for Docker/Jenkins setup
-            String hubUrl = "http://localhost:4442/wd/hub";
+            // ✅ Correct Hub URL for Selenium Grid 4 (no /wd/hub)
+            String hubUrl = "http://localhost:4444";
 
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(new URI(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
-                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(new URI(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
-                driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
+                driver = new RemoteWebDriver(new URI(hubUrl).toURL(), options);
 
             } else {
-                System.out.println("No matching browser found for remote execution.");
-                return;
+                throw new IllegalArgumentException("❌ No matching browser found for remote execution: " + br);
             }
         }
         else if(env.equalsIgnoreCase("local"))
@@ -90,11 +90,14 @@ public class BaseClass {
                 driver = new EdgeDriver(options);
 
             } else {
-                System.out.println("Invalid browser name for local execution.");
-                return;
+                throw new IllegalArgumentException("❌ Invalid browser name for local execution: " + br);
             }
         }
+        else {
+            throw new IllegalArgumentException("❌ Unknown execution environment: " + env);
+        }
 
+        // 🔹 Common setup
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("appURL2")); // URL from config.properties
