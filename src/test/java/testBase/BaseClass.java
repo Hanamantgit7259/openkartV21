@@ -59,16 +59,20 @@ public class BaseClass {
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
+                options.addArguments("window-size=1920,1080"); // ✅ added
                 driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
+                options.addArguments("--width=1920");
+                options.addArguments("--height=1080"); // ✅ added
                 driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
+                options.addArguments("window-size=1920,1080"); // ✅ added
                 driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else {
@@ -82,16 +86,20 @@ public class BaseClass {
             if(br.equalsIgnoreCase("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
+                options.addArguments("window-size=1920,1080"); // ✅ added
                 driver = new ChromeDriver(options);
 
             } else if(br.equalsIgnoreCase("firefox")) {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
+                options.addArguments("--width=1920");
+                options.addArguments("--height=1080"); // ✅ added
                 driver = new FirefoxDriver(options);
 
             } else if(br.equalsIgnoreCase("edge")) {
                 EdgeOptions options = new EdgeOptions();
                 options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
+                options.addArguments("window-size=1920,1080"); // ✅ added
                 driver = new EdgeDriver(options);
 
             } else {
@@ -106,7 +114,7 @@ public class BaseClass {
         driver.get(appUrl);
 
         // ❌ Avoid maximize (needs X11 in Jenkins)
-        // ✅ Use fixed resolution
+        // ✅ already fixed by headless window-size
         driver.manage().window().setSize(new Dimension(1920, 1080));
         logger.info("✅ Application launched: " + appUrl);
     }
