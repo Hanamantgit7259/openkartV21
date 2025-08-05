@@ -39,7 +39,7 @@ public class BaseClass {
     public void setup(String os, String br) throws IOException
     {
         // Load config.properties
-        FileReader file = new FileReader("./src//test//resources//config.properties");
+        FileReader file = new FileReader("./src/test/resources/config.properties");
         p = new Properties();
         p.load(file);
 
@@ -48,9 +48,11 @@ public class BaseClass {
         String env = p.getProperty("execution_env"); // local or remote
         String appUrl = p.getProperty("appURL2");
 
+        logger.info("🔹 Starting tests on Environment: " + env + " | Browser: " + br);
+
         if(env.equalsIgnoreCase("remote"))
         {
-            // ✅ Inside Docker (Jenkins) use selenium-hub, outside Docker use localhost
+            // ✅ Inside Docker (Jenkins) → hub = selenium-hub, outside → localhost
             String hubHost = System.getenv("HUB_HOST") != null ? System.getenv("HUB_HOST") : "selenium-hub";
             String hubUrl = "http://" + hubHost + ":4444";
 
@@ -70,7 +72,7 @@ public class BaseClass {
                 driver = new RemoteWebDriver(URI.create(hubUrl).toURL(), options);
 
             } else {
-                System.out.println("No matching browser found for remote execution.");
+                logger.error("❌ No matching browser found for remote execution.");
                 return;
             }
         }
@@ -93,18 +95,20 @@ public class BaseClass {
                 driver = new EdgeDriver(options);
 
             } else {
-                System.out.println("Invalid browser name for local execution.");
+                logger.error("❌ Invalid browser name for local execution.");
                 return;
             }
         }
 
+        // ✅ Common setup
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(appUrl);
 
-        // ❌ REMOVE maximize() -> it requires X11 in Jenkins
-        // ✅ Use fixed resolution instead
+        // ❌ Avoid maximize (needs X11 in Jenkins)
+        // ✅ Use fixed resolution
         driver.manage().window().setSize(new Dimension(1920, 1080));
+        logger.info("✅ Application launched: " + appUrl);
     }
 
     @AfterClass(groups= {"Sanity","Regression","Master"})
@@ -112,6 +116,7 @@ public class BaseClass {
     {
         if(driver != null) {
             driver.quit();
+            logger.info("✅ Browser closed.");
         }
     }
 
@@ -145,7 +150,7 @@ public class BaseClass {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+        String targetFilePath = System.getProperty("user.dir") + "/screenshots/" + tname + "_" + timeStamp + ".png";
         File targetFile = new File(targetFilePath);
 
         sourceFile.renameTo(targetFile);
