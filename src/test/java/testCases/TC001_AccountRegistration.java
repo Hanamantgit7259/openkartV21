@@ -189,7 +189,7 @@ public class TC001_AccountRegistration extends BaseClass {
 		}
 	}
 
-	@Test(groups = { "Regression", "Master" }, priority = 4)
+	@Test(groups = { "Regression", "Master" }, priority = 5)
 	public void verify_account_registration_Different_password() {
 		logger.info("****verify_account_registration_Different password****");
 		logger.debug("This is a debug log message");

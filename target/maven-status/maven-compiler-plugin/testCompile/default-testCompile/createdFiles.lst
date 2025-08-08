@@ -14,4 +14,3 @@ utilities\ExtentReportManager.class
 testCases\TC001_AccountRegistration.class
 utilities\DataProviders.class
 testCases\TC004_Demo.class
-testCases\NewTest.class

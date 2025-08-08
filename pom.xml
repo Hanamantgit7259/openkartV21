@@ -32,7 +32,7 @@
 
                     <!-- Run your TestNG suite -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>grouping.xml</suiteXmlFile>
+                        <suiteXmlFile>master.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
                     <!-- Ensure forked JVM doesn’t hang -->
