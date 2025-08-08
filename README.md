@@ -1,5 +1,6 @@
 
 **OpenKartV21 - Selenium Automation Framework**
+
 **📌 Overview**
 OpenKartV21 is a Selenium WebDriver-based automation testing framework designed to validate the OpenKart web application.
 It supports functional, regression, cross-browser testing, CI/CD integration, and parallel execution capabilities.
