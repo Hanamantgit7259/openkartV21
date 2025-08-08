@@ -40,6 +40,7 @@ Distributed Testing: Selenium Grid
 └── README.md            # Project documentation
 
 ▶️ How to Run Tests
+
       1️⃣ Clone the Repository
       git clone https://github.com/Hanamantgit7259/openkartV21.git
       cd openkartV21
