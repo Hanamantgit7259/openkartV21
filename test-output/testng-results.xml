@@ -1,89 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T19:08:14 IST" name="Suite" finished-at="2025-08-08T19:08:34 IST" duration-ms="19472">
+  <suite started-at="2025-08-08T19:55:04 IST" name="Suite" finished-at="2025-08-08T19:55:36 IST" duration-ms="31950">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" name="verify_account_registration" class="testCases.TC001_AccountRegistration"/>
-        <method signature="TC001_AccountRegistration.verify_account_registration_EmailConfirmation()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" name="verify_account_registration_EmailConfirmation" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@35229f85]" name="verify_login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistration.verify_account_registration()[pri:1, instance:testCases.TC001_AccountRegistration@146587a2]" name="verify_account_registration" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC001_AccountRegistration.verify_account_registration_EmailConfirmation()[pri:2, instance:testCases.TC001_AccountRegistration@146587a2]" name="verify_account_registration_EmailConfirmation" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC001_AccountRegistration.verify_account_registration_Newsletter_No_Validation()[pri:3, instance:testCases.TC001_AccountRegistration@146587a2]" name="verify_account_registration_Newsletter_No_Validation" class="testCases.TC001_AccountRegistration"/>
       </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@35229f85]" name="verify_login" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" name="verify_account_registration" class="testCases.TC001_AccountRegistration"/>
-        <method signature="TC001_AccountRegistration.verify_account_registration_EmailConfirmation()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" name="verify_account_registration_EmailConfirmation" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC001_AccountRegistration.verify_account_registration()[pri:1, instance:testCases.TC001_AccountRegistration@146587a2]" name="verify_account_registration" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC001_AccountRegistration.verify_account_registration_EmailConfirmation()[pri:2, instance:testCases.TC001_AccountRegistration@146587a2]" name="verify_account_registration_EmailConfirmation" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC001_AccountRegistration.verify_account_registration_Newsletter_No_Validation()[pri:3, instance:testCases.TC001_AccountRegistration@146587a2]" name="verify_account_registration_Newsletter_No_Validation" class="testCases.TC001_AccountRegistration"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-08T19:08:14 IST" name="test" finished-at="2025-08-08T19:08:34 IST" duration-ms="19472">
-      <class name="testCases.TC001_AccountRegistration">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:14 IST" name="beforeSuite" finished-at="2025-08-08T19:08:14 IST" duration-ms="43" status="PASS">
+    <test started-at="2025-08-08T19:55:04 IST" name="test" finished-at="2025-08-08T19:55:36 IST" duration-ms="31950">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@35229f85]" started-at="2025-08-08T19:55:29 IST" name="setup" finished-at="2025-08-08T19:55:33 IST" duration-ms="3158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:15 IST" name="beforeTest" finished-at="2025-08-08T19:08:15 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:15 IST" name="beforeClass" finished-at="2025-08-08T19:08:15 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC002_LoginTest@35229f85]" started-at="2025-08-08T19:55:29 IST" name="beforeClass" finished-at="2025-08-08T19:55:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:15 IST" name="setup" finished-at="2025-08-08T19:08:21 IST" duration-ms="5142" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@35229f85]" started-at="2025-08-08T19:55:33 IST" name="verify_login" finished-at="2025-08-08T19:55:36 IST" duration-ms="3241" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:21 IST" name="verify_account_registration" finished-at="2025-08-08T19:08:25 IST" duration-ms="4215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:25 IST" name="tearDown" finished-at="2025-08-08T19:08:25 IST" duration-ms="522" status="PASS">
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@35229f85]" started-at="2025-08-08T19:55:36 IST" name="tearDown" finished-at="2025-08-08T19:55:36 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:25 IST" name="setup" finished-at="2025-08-08T19:08:29 IST" duration-ms="3414" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration_EmailConfirmation()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:29 IST" name="verify_account_registration_EmailConfirmation" finished-at="2025-08-08T19:08:34 IST" duration-ms="4803" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration_EmailConfirmation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:34 IST" name="tearDown" finished-at="2025-08-08T19:08:34 IST" duration-ms="395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:34 IST" name="afterClass" finished-at="2025-08-08T19:08:34 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC002_LoginTest@35229f85]" started-at="2025-08-08T19:55:36 IST" name="afterClass" finished-at="2025-08-08T19:55:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:34 IST" name="afterTest" finished-at="2025-08-08T19:08:34 IST" duration-ms="0" status="PASS">
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC001_AccountRegistration">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:04 IST" name="beforeSuite" finished-at="2025-08-08T19:55:04 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:05 IST" name="beforeTest" finished-at="2025-08-08T19:55:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:05 IST" name="beforeClass" finished-at="2025-08-08T19:55:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:05 IST" name="setup" finished-at="2025-08-08T19:55:08 IST" duration-ms="3484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:1, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:08 IST" name="verify_account_registration" finished-at="2025-08-08T19:55:13 IST" duration-ms="4684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:13 IST" name="tearDown" finished-at="2025-08-08T19:55:13 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:13 IST" name="setup" finished-at="2025-08-08T19:55:17 IST" duration-ms="3507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration_EmailConfirmation()[pri:2, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:17 IST" name="verify_account_registration_EmailConfirmation" finished-at="2025-08-08T19:55:21 IST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration_EmailConfirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:21 IST" name="tearDown" finished-at="2025-08-08T19:55:21 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:21 IST" name="setup" finished-at="2025-08-08T19:55:24 IST" duration-ms="3237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration_Newsletter_No_Validation()[pri:3, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:24 IST" name="verify_account_registration_Newsletter_No_Validation" finished-at="2025-08-08T19:55:29 IST" duration-ms="4490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration_Newsletter_No_Validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:29 IST" name="tearDown" finished-at="2025-08-08T19:55:29 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:29 IST" name="afterClass" finished-at="2025-08-08T19:55:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:36 IST" name="afterTest" finished-at="2025-08-08T19:55:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.TC001_AccountRegistration@2b4c1d96]" started-at="2025-08-08T19:08:36 IST" name="afterSuite" finished-at="2025-08-08T19:08:36 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.TC001_AccountRegistration@146587a2]" started-at="2025-08-08T19:55:38 IST" name="afterSuite" finished-at="2025-08-08T19:55:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

@@ -74,7 +74,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			regpage.setLastName(randomeString().toUpperCase());
 			// regpage.setEmail(randomeString()+"@gmail.com");// randomly generated the
 			// email
-			regpage.setEmail("hanamantrg72759@gmail.com");
+			regpage.setEmail(randomeString() + "@gmail.com");
 			regpage.setTelephone(randomeNumber());
 
 			String password = randomeAlphaNumberic();
@@ -112,14 +112,15 @@ public class TC001_AccountRegistration extends BaseClass {
 
 			logger.info("Filling the register account details");
 			AccountRegistrationPage ar = new AccountRegistrationPage(driver);
-			ar.setFirstName("Virat2");
-			ar.setLastName("Reddy2");
-			ar.setEmail("virat2Bro@gmail.com");
-			ar.setTelephone("72598888193");
+			ar.setFirstName(randomeString().toUpperCase());
+			ar.setLastName(randomeString().toUpperCase());
+			ar.setEmail(randomeString() + "@gmail.com");
+			ar.setTelephone(randomeNumber());
 
 			logger.info("Your Password details");
-			ar.setPassword("abc12333");
-			ar.setConfirmPassword("abc12333");
+			String password = randomeAlphaNumberic();
+			ar.setPassword(password);
+			ar.setConfirmPassword(password);
 
 			logger.info("Newsletter default option selection validation");
 			boolean isSelected = ar.isNewsletterNoSelected();

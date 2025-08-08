@@ -165,3 +165,62 @@ Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
 2025-08-08 19:47:16 INFO  TC001_AccountRegistration:130 - Validating expected message..
 2025-08-08 19:47:16 INFO  TC001_AccountRegistration:135 - Test passed
 2025-08-08 19:47:16 INFO  TC001_AccountRegistration:140 - ***** Finished 3rd test cases*****
+2025-08-08 19:52:11 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 19:52:24 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 19:52:42 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 19:52:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
+
+2025-08-08 19:52:49 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-08 19:52:50 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-08 19:52:50 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-08 19:52:50 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-08 19:52:55 INFO  TC001_AccountRegistration:43 - Validating expected message..
+2025-08-08 19:52:55 INFO  TC001_AccountRegistration:48 - Test passed
+2025-08-08 19:52:55 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:52:59 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:53:00 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
+2025-08-08 19:53:01 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
+2025-08-08 19:53:01 INFO  TC001_AccountRegistration:72 - Providing customer details...
+2025-08-08 19:53:04 INFO  TC001_AccountRegistration:88 - Validating expected message..
+2025-08-08 19:53:04 INFO  TC001_AccountRegistration:93 - Test passed
+2025-08-08 19:53:04 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
+2025-08-08 19:53:08 INFO  TC001_AccountRegistration:105 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:53:09 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
+2025-08-08 19:53:09 INFO  TC001_AccountRegistration:113 - Filling the register account details
+2025-08-08 19:53:10 INFO  TC001_AccountRegistration:120 - Your Password details
+2025-08-08 19:53:11 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
+2025-08-08 19:53:13 INFO  TC001_AccountRegistration:131 - Validating expected message..
+2025-08-08 19:53:13 INFO  TC001_AccountRegistration:136 - Test passed
+2025-08-08 19:53:13 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
+2025-08-08 19:53:18 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-08 19:53:35 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-08 19:53:53 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
+2025-08-08 19:55:04 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 19:55:04 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
+
+2025-08-08 19:55:08 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-08 19:55:09 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-08 19:55:10 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-08 19:55:10 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-08 19:55:13 INFO  TC001_AccountRegistration:43 - Validating expected message..
+2025-08-08 19:55:13 INFO  TC001_AccountRegistration:48 - Test passed
+2025-08-08 19:55:13 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:55:17 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:55:17 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
+2025-08-08 19:55:18 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
+2025-08-08 19:55:18 INFO  TC001_AccountRegistration:72 - Providing customer details...
+2025-08-08 19:55:21 INFO  TC001_AccountRegistration:88 - Validating expected message..
+2025-08-08 19:55:21 INFO  TC001_AccountRegistration:93 - Test passed
+2025-08-08 19:55:21 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
+2025-08-08 19:55:24 INFO  TC001_AccountRegistration:105 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:55:26 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
+2025-08-08 19:55:26 INFO  TC001_AccountRegistration:113 - Filling the register account details
+2025-08-08 19:55:27 INFO  TC001_AccountRegistration:120 - Your Password details
+2025-08-08 19:55:28 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
+2025-08-08 19:55:29 INFO  TC001_AccountRegistration:131 - Validating expected message..
+2025-08-08 19:55:29 INFO  TC001_AccountRegistration:136 - Test passed
+2025-08-08 19:55:29 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
+2025-08-08 19:55:33 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2025-08-08 19:55:36 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
