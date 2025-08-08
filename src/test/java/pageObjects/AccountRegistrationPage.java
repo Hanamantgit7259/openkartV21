@@ -43,9 +43,12 @@ public class AccountRegistrationPage extends BasePage {
 
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!' ]")
 	WebElement msgConfirmation;
-	
-	@FindBy(xpath="//div[text()='Password confirmation does not match password!']")
+
+	@FindBy(xpath = "//div[text()='Password confirmation does not match password!']")
 	WebElement pwdMismatchError;
+
+	@FindBy(xpath = "//div[text()='Warning: You must agree to the Privacy Policy!']")
+	WebElement privacyPolicyWarning;
 
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
@@ -79,22 +82,31 @@ public class AccountRegistrationPage extends BasePage {
 
 	// Method to check if "No" is selected by default
 	public boolean isNewsletterNoSelected() {
-	    return newsletterNo.isSelected();
+		return newsletterNo.isSelected();
 	}
-
 
 	public void setPrivacyPolicy() {
 		chkdPolicy.click();
 	}
-	
+
 	public String passwordMismatchValidation() {
-		
+
 		try {
 			return (pwdMismatchError.getText());
 		} catch (Exception e) {
 			return (e.getMessage());
 
 		}
+	}
+
+	public String privacyWarning() {
+
+		try {
+			return privacyPolicyWarning.getText();
+		} catch (Exception e) {
+			return e.getMessage();
+		}
+
 	}
 
 	public void clickContinue() {

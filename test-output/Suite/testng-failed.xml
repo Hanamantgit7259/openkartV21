@@ -9,11 +9,34 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC002_LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="verify_login"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC001_AccountRegistration">
         <methods>
+          <include name="verify_account_registration_Different_password"/>
+          <include name="afterClass"/>
           <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="verify_account_registration_Newsletter_No_Validation"/>
+          <include name="afterSuite"/>
           <include name="verify_account_registration_EmailConfirmation"/>
           <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="verify_account_registration_Newsletter_yes_Validation"/>
+          <include name="verify_account_registration"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistration -->
     </classes>

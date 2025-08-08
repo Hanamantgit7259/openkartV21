@@ -12,7 +12,7 @@ import testBase.BaseClass;
 
 public class TC001_AccountRegistration extends BaseClass {
 
-	@Test(groups = { "Regression", "Master" }, priority = 1)
+	@Test(groups = { "Regression", "Master" }, priority = 2)
 	public void verify_account_registration() {
 		logger.info("***** Starting TC001_AccountRegistrationTest  ****");
 		logger.debug("This is a debug log message");
@@ -195,38 +195,69 @@ public class TC001_AccountRegistration extends BaseClass {
 		logger.debug("This is a debug log message");
 
 		try {
-		HomePage hm = new HomePage(driver);
-		hm.clickMyAccount();
-		hm.clickRegister();
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
 
-		AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
-		accreg.setFirstName(randomeString().toUpperCase());
-		accreg.setLastName(randomeString().toUpperCase());
-		accreg.setEmail(randomeString() + "@gmail.com");
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+			accreg.setFirstName(randomeString().toUpperCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail(randomeString() + "@gmail.com");
 
-		String password1 = randomeAlphaNumberic();
-		String password2 = randomeAlphaNumberic();
+			String password1 = randomeAlphaNumberic();
+			String password2 = randomeAlphaNumberic();
 
-		accreg.setPassword(password1);
-		accreg.setConfirmPassword(password2);
-		
-		accreg.selectNewsLetterYes();
-		accreg.setPrivacyPolicy();
-		accreg.clickContinue();
-		
-		String pwdmessage =accreg.passwordMismatchValidation();
-		
-		Assert.assertEquals(pwdmessage,"Password confirmation does not match password!");
-		 logger.info("Test Passed");
-		}
-		catch(Exception e) {
-			logger.info("Test Failed "+ e.getMessage());
+			accreg.setPassword(password1);
+			accreg.setConfirmPassword(password2);
+
+			accreg.selectNewsLetterYes();
+			accreg.setPrivacyPolicy();
+			accreg.clickContinue();
+
+			String pwdmessage = accreg.passwordMismatchValidation();
+
+			Assert.assertEquals(pwdmessage, "Password confirmation does not match password!");
+			logger.info("Test Passed");
+		} catch (Exception e) {
+			logger.info("Test Failed " + e.getMessage());
 			Assert.fail("Test failed: " + e.getMessage());
-		}
-		finally {
+		} finally {
 			logger.info("***** Finished 5th test case test cases*****");
 		}
-		 
+
+	}
+
+	@Test(groups = { "Regression", "Master" }, priority = 1)
+	public void verify_account_registration_DontCheckPrivacyPolicy() {
+		logger.info("****verify_account_registration_Different password****");
+		logger.debug("This is a debug log message");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
+
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+			accreg.setFirstName(randomeString().toUpperCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail(randomeString() + "@gmail.com");
+
+			String pwd = randomeAlphaNumberic();
+			accreg.setPassword(pwd);
+			accreg.setConfirmPassword(pwd);
+
+			accreg.clickContinue();
+			String results = accreg.privacyWarning();
+			Thread.sleep(2000);
+			Assert.assertEquals(results, "Warning: You must agree to the Privacy Policy!");
+
+			logger.info("Test is Passed");
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			logger.info("6th Test Excution is completed");
+		}
 	}
 
 }
