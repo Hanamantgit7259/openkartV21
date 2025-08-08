@@ -1,322 +1,112 @@
-2025-08-06 00:27:21 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 00:27:30 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-06 00:28:29 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 00:28:29 INFO  Utils:112 - [TestNG] Running:
+2025-08-08 18:51:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 18:51:01 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-06 00:28:33 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 00:28:43 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 00:28:53 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 00:29:09 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:29:20 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:29:30 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:29:40 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:29:50 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:30:01 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:30:11 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:30:21 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:30:31 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:30:41 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:30:51 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:31:01 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:31:12 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:31:22 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:31:32 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:31:42 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:31:52 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 00:32:02 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 02:23:35 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:27:36 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:27:37 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: chrome
-2025-08-06 02:27:37 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:27:54 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:27:54 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:27:56 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:27:57 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:27:57 INFO  TC001_AccountRegistration:29 -  Providing customer details 
- INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:28:04 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:28:04 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:28:05 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:28:05 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:28:09 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:28:09 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: chrome
-2025-08-06 02:28:09 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:28:21 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:28:21 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:28:25 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:28:27 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:35:22 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:35:23 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml
+2025-08-08 18:51:07 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-08 18:51:09 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-08 18:51:13 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-08 18:51:13 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-08 18:51:18 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-08 18:51:18 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-08 18:51:18 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 18:51:18 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 18:51:18 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 18:51:28 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [914ea06632f0f379a113fb50af75b92f, findElement {value=//a[normalize-space()='Register' ], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 914ea06632f0f379a113fb50af75b92f
+2025-08-08 18:51:28 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 18:51:28 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 18:51:28 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 18:51:38 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [914ea06632f0f379a113fb50af75b92f, findElement {value=//a[normalize-space()='Register' ], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 914ea06632f0f379a113fb50af75b92f
+2025-08-08 18:51:38 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 18:51:38 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 18:51:38 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 18:51:48 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [914ea06632f0f379a113fb50af75b92f, findElement {value=//a[normalize-space()='Register' ], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 914ea06632f0f379a113fb50af75b92f
+2025-08-08 18:51:48 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:04:23 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 19:04:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-06 02:35:23 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: chrome
-2025-08-06 02:35:23 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:35:32 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:35:32 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:35:33 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:35:34 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:35:34 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:35:38 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:35:38 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:35:38 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:35:39 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:35:39 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:35:40 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:35:40 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:35:43 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:35:43 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: chrome
-2025-08-06 02:35:43 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:35:50 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:35:50 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:35:53 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:35:55 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:35:55 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: edge
-2025-08-06 02:38:55 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Windows | Browser: edge
-2025-08-06 02:46:22 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:46:22 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml
+2025-08-08 19:04:35 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-08 19:04:35 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-08 19:04:37 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-08 19:04:37 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-08 19:04:40 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-08 19:04:40 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-08 19:04:40 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:04:40 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:04:40 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 19:04:50 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a4dad39eee0b0d8315a8e73b6f5440, findElement {using=xpath, value=//a[normalize-space()='Register' ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
+2025-08-08 19:04:50 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:04:50 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:04:50 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 19:05:00 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a4dad39eee0b0d8315a8e73b6f5440, findElement {using=xpath, value=//a[normalize-space()='Register' ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
+2025-08-08 19:05:00 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:05:00 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:05:00 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 19:05:10 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a4dad39eee0b0d8315a8e73b6f5440, findElement {using=xpath, value=//a[normalize-space()='Register' ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
+2025-08-08 19:05:10 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:08:14 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-08 19:08:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-06 02:46:23 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:46:32 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:46:32 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:46:32 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:46:34 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:46:34 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:46:36 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:46:36 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:46:38 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:46:38 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:46:43 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:46:43 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:46:45 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:46:47 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:47:26 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:47:27 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:47:34 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:47:34 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:47:35 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:47:35 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:47:35 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:47:38 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:47:38 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:47:39 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:47:39 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:47:44 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:47:44 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:47:47 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:47:48 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:49:04 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:49:05 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:49:13 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:49:13 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:49:13 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:49:14 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:49:14 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:49:16 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:49:16 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:49:17 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:49:17 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: remote | OS: Linux | Browser: firefox
-2025-08-06 02:49:23 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:49:23 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:49:26 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:49:28 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:55:16 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:55:17 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: local | OS: Linux | Browser: chrome
-2025-08-06 02:55:24 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:55:24 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:55:25 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:55:26 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:55:26 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:55:28 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:55:29 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:55:29 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:55:29 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: local | OS: Linux | Browser: chrome
-2025-08-06 02:55:31 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:55:31 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:55:33 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:55:34 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:56:00 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:56:01 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: local | OS: Linux | Browser: chrome
-2025-08-06 02:56:04 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:56:04 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:56:04 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:56:05 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:56:05 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:56:07 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:56:07 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:56:07 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:56:07 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: local | OS: Linux | Browser: chrome
-2025-08-06 02:56:09 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:56:09 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:56:11 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:56:11 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:57:06 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:57:06 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: local | OS: Windows | Browser: chrome
-2025-08-06 02:57:10 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:57:10 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:57:10 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:57:11 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:57:11 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:57:13 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:57:13 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:57:13 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:57:13 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: local | OS: Windows | Browser: chrome
-2025-08-06 02:57:15 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:57:15 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:57:17 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:57:17 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:57:29 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:57:29 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml
-
-2025-08-06 02:57:30 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: local | OS: Windows | Browser: chrome
-2025-08-06 02:57:33 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:57:33 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:57:34 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:57:34 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:57:34 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:57:36 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:57:36 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:57:36 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:57:36 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: local | OS: Windows | Browser: chrome
-2025-08-06 02:57:39 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:57:39 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:57:40 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:57:41 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 02:59:37 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 02:59:38 INFO  TC001_AccountRegistration:55 - 🔹 Starting tests | Env: local | OS: Windows | Browser: chrome
-2025-08-06 02:59:43 INFO  TC001_AccountRegistration:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:59:43 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 02:59:43 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 02:59:44 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 02:59:44 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 02:59:46 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 02:59:47 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 02:59:47 INFO  TC001_AccountRegistration:130 - ✅ Browser closed.
-2025-08-06 02:59:47 INFO  TC002_LoginTest:55 - 🔹 Starting tests | Env: local | OS: Windows | Browser: chrome
-2025-08-06 02:59:49 INFO  TC002_LoginTest:111 - ✅ Application launched: https://tutorialsninja.com/demo/
-2025-08-06 02:59:49 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 02:59:51 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 02:59:52 INFO  TC002_LoginTest:130 - ✅ Browser closed.
-2025-08-06 03:02:32 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:03:07 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grid-docker.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:03:17 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:03:17 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:03:22 INFO  TC001_AccountRegistration:16 - ***** Starting TC001_AccountRegistration ******
-2025-08-06 03:03:23 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount
-2025-08-06 03:03:24 INFO  TC001_AccountRegistration:25 -  Clicked on Register 
-2025-08-06 03:03:24 INFO  TC001_AccountRegistration:29 -  Providing customer details 
-2025-08-06 03:03:26 INFO  TC001_AccountRegistration:42 - Validating expected message
-2025-08-06 03:03:26 INFO  TC001_AccountRegistration:61 - TC001_AccountRegistration Finished
-2025-08-06 03:03:29 INFO  TC002_LoginTest:15 - ****** Starting TC_002_LoginTest *****
-2025-08-06 03:03:33 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
-2025-08-06 03:03:39 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:03:51 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:04:03 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:04:15 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:04:20 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:04:20 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:04:25 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:04:25 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:04:39 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:04:39 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:04:45 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:04:45 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:05:01 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:07:38 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:07:38 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:07:43 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:07:44 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:07:45 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:07:45 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:07:48 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:07:48 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:07:48 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-06 03:07:52 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-06 03:07:54 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-06 03:08:02 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:08:15 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:08:27 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:08:38 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:08:45 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:08:45 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:08:50 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:08:50 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:09:05 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:09:05 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:09:10 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:09:10 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-06 03:09:24 INFO  TC003_LoginDDT:79 - ***** Finished TC_003_LoginDDT ******
-2025-08-06 03:09:57 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:09:58 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:10:02 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:10:02 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:10:04 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:10:04 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:10:08 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:10:08 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:10:08 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-06 03:10:12 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-06 03:10:15 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-06 03:11:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:11:01 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:11:05 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:11:06 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:11:07 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:11:07 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:11:09 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:11:09 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:11:09 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-06 03:14:37 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:14:37 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:14:42 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:14:43 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:14:44 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:14:44 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:14:46 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:14:46 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:14:46 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-06 03:16:24 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:16:24 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:16:29 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:16:29 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:16:30 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:16:30 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:16:33 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:16:33 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:16:33 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-06 03:17:42 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:17:43 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:17:47 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:17:48 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:17:48 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:17:48 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:17:50 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:17:50 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:17:50 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-06 03:21:10 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml] otherwise TestNG may fail or not work as expected.
-2025-08-06 03:21:11 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\grouping.xml
-
-2025-08-06 03:21:15 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-06 03:21:15 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-06 03:21:16 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-06 03:21:16 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-06 03:21:19 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-06 03:21:19 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-06 03:21:19 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:08:21 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-08 19:08:22 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
+2025-08-08 19:08:23 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
+2025-08-08 19:08:23 INFO  TC001_AccountRegistration:28 - Providing customer details...
+2025-08-08 19:08:25 INFO  TC001_AccountRegistration:42 - Validating expected message..
+2025-08-08 19:08:25 INFO  TC001_AccountRegistration:47 - Test passed
+2025-08-08 19:08:25 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-08 19:08:29 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-08 19:08:30 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
+2025-08-08 19:08:30 INFO  TC001_AccountRegistration:73 - Clicked on Register Link.. 
+2025-08-08 19:08:30 INFO  TC001_AccountRegistration:77 - Providing customer details...
+2025-08-08 19:08:33 INFO  TC001_AccountRegistration:92 - Validating expected message..
+2025-08-08 19:08:34 INFO  TC001_AccountRegistration:97 - Test passed
+2025-08-08 19:08:34 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****

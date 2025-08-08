@@ -6,21 +6,14 @@
     <listener class-name="utilities.RetryListener"/>
   </listeners>
   <test thread-count="5" name="test(failed)">
-    <parameter name="os" value="linux"/>
+    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_LoginDDT">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_loginDDT" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC003_LoginDDT -->
       <class name="testCases.TC001_AccountRegistration">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_account_registration_EmailConfirmation"/>
           <include name="setup"/>
-          <include name="verify_account_registration"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistration -->
     </classes>

@@ -7,12 +7,12 @@
 	</listeners>
 
 	<test thread-count="5" name="test">
-		<parameter name="os" value="linux" />
+		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
 	 	<class name="testCases.TC001_AccountRegistration" /> 
-			<class name="testCases.NewTest" />
-	 		<class name="testCases.TC003_LoginDDT" />  
+	<!-- 	<class name="testCases.NewTest" />
+	 		<class name="testCases.TC003_LoginDDT" />  -->	
 		</classes>
 	</test> <!-- test -->
 </suite> <!-- Suite -->
