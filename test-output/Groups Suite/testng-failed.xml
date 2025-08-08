@@ -10,18 +10,28 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
+        <include name="Master"/>
         <include name="Regression"/>
         <include name="Datadriven"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC003_LoginDDT">
+      <class name="testCases.TC001_AccountRegistration">
         <methods>
+          <include name="afterClass"/>
           <include name="tearDown"/>
-          <include name="verify_loginDDT" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="verify_account_registration_Newsletter_No_Validation"/>
+          <include name="afterSuite"/>
+          <include name="verify_account_registration_EmailConfirmation"/>
           <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="verify_account_registration_Newsletter_yes_Validation"/>
+          <include name="verify_account_registration"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginDDT -->
+      </class> <!-- testCases.TC001_AccountRegistration -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Groups Suite] -->

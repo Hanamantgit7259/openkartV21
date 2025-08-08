@@ -1,226 +1,41 @@
-2025-08-08 18:51:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 18:51:01 INFO  Utils:112 - [TestNG] Running:
+2025-08-09 00:05:03 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-09 00:05:04 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-08 18:51:07 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 18:51:09 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-08 18:51:13 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-08 18:51:13 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-08 18:51:18 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-08 18:51:18 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-08 18:51:18 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 18:51:18 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 18:51:18 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 18:51:28 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [914ea06632f0f379a113fb50af75b92f, findElement {value=//a[normalize-space()='Register' ], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 914ea06632f0f379a113fb50af75b92f
-2025-08-08 18:51:28 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 18:51:28 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 18:51:28 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 18:51:38 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [914ea06632f0f379a113fb50af75b92f, findElement {value=//a[normalize-space()='Register' ], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 914ea06632f0f379a113fb50af75b92f
-2025-08-08 18:51:38 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 18:51:38 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 18:51:38 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 18:51:48 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [914ea06632f0f379a113fb50af75b92f, findElement {value=//a[normalize-space()='Register' ], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 914ea06632f0f379a113fb50af75b92f
-2025-08-08 18:51:48 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:04:23 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:04:24 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-08 19:04:35 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 19:04:35 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-08 19:04:37 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-08 19:04:37 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-08 19:04:40 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-08 19:04:40 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-08 19:04:40 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:04:40 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:04:40 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 19:04:50 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9a4dad39eee0b0d8315a8e73b6f5440, findElement {using=xpath, value=//a[normalize-space()='Register' ]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
-2025-08-08 19:04:50 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:04:50 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:04:50 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 19:05:00 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9a4dad39eee0b0d8315a8e73b6f5440, findElement {using=xpath, value=//a[normalize-space()='Register' ]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
-2025-08-08 19:05:00 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:05:00 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:05:00 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 19:05:10 ERROR TC001_AccountRegistration:101 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register' ]"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9a4dad39eee0b0d8315a8e73b6f5440, findElement {using=xpath, value=//a[normalize-space()='Register' ]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9a4dad39eee0b0d8315a8e73b6f5440
-2025-08-08 19:05:10 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:08:14 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:08:14 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-08 19:08:21 INFO  TC001_AccountRegistration:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 19:08:22 INFO  TC001_AccountRegistration:21 - Clicked on MyAccount Link.. 
-2025-08-08 19:08:23 INFO  TC001_AccountRegistration:24 - Clicked on Register Link.. 
-2025-08-08 19:08:23 INFO  TC001_AccountRegistration:28 - Providing customer details...
-2025-08-08 19:08:25 INFO  TC001_AccountRegistration:42 - Validating expected message..
-2025-08-08 19:08:25 INFO  TC001_AccountRegistration:47 - Test passed
-2025-08-08 19:08:25 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:08:29 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:08:30 INFO  TC001_AccountRegistration:70 - Clicked on MyAccount Link.. 
-2025-08-08 19:08:30 INFO  TC001_AccountRegistration:73 - Clicked on Register Link.. 
-2025-08-08 19:08:30 INFO  TC001_AccountRegistration:77 - Providing customer details...
-2025-08-08 19:08:33 INFO  TC001_AccountRegistration:92 - Validating expected message..
-2025-08-08 19:08:34 INFO  TC001_AccountRegistration:97 - Test passed
-2025-08-08 19:08:34 INFO  TC001_AccountRegistration:106 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:42:53 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:42:54 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-08 19:42:59 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 19:43:00 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-08 19:43:01 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-08 19:43:01 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-08 19:43:03 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-08 19:43:04 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-08 19:43:04 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:43:08 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:43:09 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-08 19:43:09 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-08 19:43:09 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-08 19:43:12 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-08 19:43:22 INFO  TC001_AccountRegistration:98 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:43:27 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:43:28 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-08 19:43:28 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-08 19:43:28 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-08 19:43:31 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-08 19:43:41 INFO  TC001_AccountRegistration:98 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:43:45 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:43:45 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-08 19:43:46 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-08 19:43:46 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-08 19:43:48 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-08 19:43:59 INFO  TC001_AccountRegistration:98 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:46:43 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:46:43 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-08 19:46:50 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 19:46:50 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-08 19:46:51 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-08 19:46:51 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-08 19:46:55 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-08 19:46:55 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-08 19:46:55 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:46:59 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:47:00 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-08 19:47:01 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-08 19:47:01 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-08 19:47:05 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-08 19:47:05 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-08 19:47:05 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-08 19:47:09 INFO  TC001_AccountRegistration:105 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:47:11 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-08 19:47:11 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-08 19:47:13 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-08 19:47:13 INFO  TC001_AccountRegistration:124 - Newsletter default option selection validation
-2025-08-08 19:47:16 INFO  TC001_AccountRegistration:130 - Validating expected message..
-2025-08-08 19:47:16 INFO  TC001_AccountRegistration:135 - Test passed
-2025-08-08 19:47:16 INFO  TC001_AccountRegistration:140 - ***** Finished 3rd test cases*****
-2025-08-08 19:52:11 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:52:24 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:52:42 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:52:43 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-08 19:52:49 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 19:52:50 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-08 19:52:50 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-08 19:52:50 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-08 19:52:55 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-08 19:52:55 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-08 19:52:55 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:52:59 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:53:00 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-08 19:53:01 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-08 19:53:01 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-08 19:53:04 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-08 19:53:04 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-08 19:53:04 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-08 19:53:08 INFO  TC001_AccountRegistration:105 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:53:09 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-08 19:53:09 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-08 19:53:10 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-08 19:53:11 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-08 19:53:13 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-08 19:53:13 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-08 19:53:13 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-08 19:53:18 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-08 19:53:35 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-08 19:53:53 INFO  TC003_LoginDDT:26 - ***** stating TC_003_LoginDDT ******
-2025-08-08 19:55:04 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-08 19:55:04 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-08 19:55:08 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-08 19:55:09 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-08 19:55:10 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-08 19:55:10 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-08 19:55:13 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-08 19:55:13 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-08 19:55:13 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-08 19:55:17 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:55:17 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-08 19:55:18 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-08 19:55:18 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-08 19:55:21 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-08 19:55:21 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-08 19:55:21 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-08 19:55:24 INFO  TC001_AccountRegistration:105 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-08 19:55:26 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-08 19:55:26 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-08 19:55:27 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-08 19:55:28 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-08 19:55:29 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-08 19:55:29 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-08 19:55:29 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-08 19:55:33 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-08 19:55:36 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2025-08-09 00:05:10 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-09 00:05:10 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-09 00:05:11 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-09 00:05:11 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-09 00:05:14 INFO  TC001_AccountRegistration:43 - Validating expected message..
+2025-08-09 00:05:14 INFO  TC001_AccountRegistration:48 - Test passed
+2025-08-09 00:05:14 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-09 00:05:18 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-09 00:05:19 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
+2025-08-09 00:05:21 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
+2025-08-09 00:05:21 INFO  TC001_AccountRegistration:72 - Providing customer details...
+2025-08-09 00:05:25 INFO  TC001_AccountRegistration:88 - Validating expected message..
+2025-08-09 00:05:25 INFO  TC001_AccountRegistration:93 - Test passed
+2025-08-09 00:05:25 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
+2025-08-09 00:05:29 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
+2025-08-09 00:05:31 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
+2025-08-09 00:05:31 INFO  TC001_AccountRegistration:113 - Filling the register account details
+2025-08-09 00:05:32 INFO  TC001_AccountRegistration:120 - Your Password details
+2025-08-09 00:05:32 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
+2025-08-09 00:05:34 INFO  TC001_AccountRegistration:131 - Validating expected message..
+2025-08-09 00:05:34 INFO  TC001_AccountRegistration:136 - Test passed
+2025-08-09 00:05:34 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
+2025-08-09 00:05:38 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
+2025-08-09 00:05:42 INFO  TC001_AccountRegistration:220 - Test Passed
+2025-08-09 00:05:42 INFO  TC001_AccountRegistration:227 - ***** Finished 5th test case test cases*****
+2025-08-09 00:05:46 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
+2025-08-09 00:05:46 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
+2025-08-09 00:05:47 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
+2025-08-09 00:05:47 INFO  TC001_AccountRegistration:158 - Filling persnal information details
+2025-08-09 00:05:48 INFO  TC001_AccountRegistration:164 - Personal information is done
+2025-08-09 00:05:48 INFO  TC001_AccountRegistration:166 - Filling Your Password details
+2025-08-09 00:05:49 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
+2025-08-09 00:05:51 INFO  TC001_AccountRegistration:177 - Validating expected message..
+2025-08-09 00:05:51 INFO  TC001_AccountRegistration:181 - Test passed
+2025-08-09 00:05:51 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
+2025-08-09 00:05:54 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2025-08-09 00:05:57 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****

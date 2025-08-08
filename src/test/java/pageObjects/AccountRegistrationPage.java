@@ -43,6 +43,9 @@ public class AccountRegistrationPage extends BasePage {
 
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!' ]")
 	WebElement msgConfirmation;
+	
+	@FindBy(xpath="//div[text()='Password confirmation does not match password!']")
+	WebElement pwdMismatchError;
 
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
@@ -82,6 +85,16 @@ public class AccountRegistrationPage extends BasePage {
 
 	public void setPrivacyPolicy() {
 		chkdPolicy.click();
+	}
+	
+	public String passwordMismatchValidation() {
+		
+		try {
+			return (pwdMismatchError.getText());
+		} catch (Exception e) {
+			return (e.getMessage());
+
+		}
 	}
 
 	public void clickContinue() {

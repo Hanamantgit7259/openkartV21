@@ -143,50 +143,90 @@ public class TC001_AccountRegistration extends BaseClass {
 
 	}
 
-	@Test(groups = { "Regression", "Master" }, priority = 3)
+	@Test(groups = { "Regression", "Master" }, priority = 4)
 	public void verify_account_registration_Newsletter_yes_Validation() {
-		logger.info("****verify_account_registration_Newsletter_No_Validation****");
+		logger.info("****verify_account_registration_Newsletter_yes_Validation****");
 		logger.debug("This is a debug log message");
 
 		logger.info("Currently on home page clicking on My account and register");
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
+
+			logger.info("Clicked Register and Navigated to Account Registration page");
+			logger.info("Filling persnal information details");
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+			accreg.setFirstName(randomeString().toUpperCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail(randomeString() + "@gmail.com");
+			accreg.setTelephone(randomeNumber());
+			logger.info("Personal information is done");
+
+			logger.info("Filling Your Password details");
+			String password = randomeAlphaNumberic();
+			accreg.setPassword(password);
+			accreg.setConfirmPassword(password);
+
+			logger.info("Selecting Yes radio button in Newsletter");
+			accreg.selectNewsLetterYes();
+
+			accreg.setPrivacyPolicy();
+			accreg.clickContinue();
+
+			logger.info("Validating expected message..");
+
+			String confmsg = accreg.getConfirmationMsg();
+			Assert.assertEquals(confmsg, "Your Account Has Been Created!", "Confirmation message mismatch");
+			logger.info("Test passed");
+		}
+
+		catch (Exception e) {
+			logger.error("Test failed: " + e.getMessage());
+			Assert.fail("Test failed: " + e.getMessage());
+		} finally {
+			logger.info("***** Finished 4th test case test cases*****");
+		}
+	}
+
+	@Test(groups = { "Regression", "Master" }, priority = 4)
+	public void verify_account_registration_Different_password() {
+		logger.info("****verify_account_registration_Different password****");
+		logger.debug("This is a debug log message");
+
 		try {
 		HomePage hm = new HomePage(driver);
 		hm.clickMyAccount();
 		hm.clickRegister();
 
-		logger.info("Clicked Register and Navigated to Account Registration page");
-		logger.info("Filling persnal information details");
 		AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
 		accreg.setFirstName(randomeString().toUpperCase());
 		accreg.setLastName(randomeString().toUpperCase());
 		accreg.setEmail(randomeString() + "@gmail.com");
-		accreg.setTelephone(randomeNumber());
-		logger.info("Personal information is done");
 
-		logger.info("Filling Your Password details");
-		String password = randomeAlphaNumberic();
-		accreg.setPassword(password);
-		accreg.setConfirmPassword(password);
+		String password1 = randomeAlphaNumberic();
+		String password2 = randomeAlphaNumberic();
+
+		accreg.setPassword(password1);
+		accreg.setConfirmPassword(password2);
 		
-		logger.info("Selecting Yes radio button in Newsletter");
 		accreg.selectNewsLetterYes();
-		
 		accreg.setPrivacyPolicy();
 		accreg.clickContinue();
 		
-		logger.info("Validating expected message..");
-
-		String confmsg = accreg.getConfirmationMsg();
-		Assert.assertEquals(confmsg, "Your Account Has Been Created!", "Confirmation message mismatch");
+		String pwdmessage =accreg.passwordMismatchValidation();
 		
+		Assert.assertEquals(pwdmessage,"Password confirmation does not match password!");
+		 logger.info("Test Passed");
 		}
 		catch(Exception e) {
-			logger.error("Test failed: " + e.getMessage());
+			logger.info("Test Failed "+ e.getMessage());
 			Assert.fail("Test failed: " + e.getMessage());
 		}
 		finally {
-			logger.info("***** Finished 4th test case test cases*****");
+			logger.info("***** Finished 5th test case test cases*****");
 		}
+		 
 	}
 
 }
