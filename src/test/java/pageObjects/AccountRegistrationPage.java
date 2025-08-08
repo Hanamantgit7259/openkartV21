@@ -29,6 +29,12 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//input[@id='input-confirm']")
 	WebElement txtConfirmPassword;
 
+	@FindBy(xpath = "(//*[@name='newsletter'])[1]")
+	WebElement newsletterYes;
+
+	@FindBy(xpath = "(//*[@name='newsletter'])[2]")
+	WebElement newsletterNo;
+
 	@FindBy(xpath = "//input[@name='agree']")
 	WebElement chkdPolicy;
 
@@ -64,6 +70,16 @@ public class AccountRegistrationPage extends BasePage {
 
 	}
 
+	public void selectNewsLetterYes() {
+		newsletterYes.click();
+	}
+
+	// Method to check if "No" is selected by default
+	public boolean isNewsletterNoSelected() {
+	    return newsletterNo.isSelected();
+	}
+
+
 	public void setPrivacyPolicy() {
 		chkdPolicy.click();
 	}
@@ -71,25 +87,26 @@ public class AccountRegistrationPage extends BasePage {
 	public void clickContinue() {
 		// sol1
 		btnContinue.click();
-		
-		//so12
-		//btnContinue.submit();
 
-		//so13
-		//Actions act=new Actions(driver);
-		//act.moveToElement(btnContinue).click().perform();
+		// so12
+		// btnContinue.submit();
 
-		//so14
-		//JavascriptExecutor js=(JavascriptExecutor)driver;
-		//js.executeScript("arguments[0].click();", btnContinue);
+		// so13
+		// Actions act=new Actions(driver);
+		// act.moveToElement(btnContinue).click().perform();
 
-		//Sol 5
-		//btnContinue.sendKeys(Keys.RETURN);
+		// so14
+		// JavascriptExecutor js=(JavascriptExecutor)driver;
+		// js.executeScript("arguments[0].click();", btnContinue);
 
-		//So16
-		//WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		//mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
+		// Sol 5
+		// btnContinue.sendKeys(Keys.RETURN);
+
+		// So16
+		// WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		// mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
 	}
+
 	public String getConfirmationMsg() {
 		try {
 			return (msgConfirmation.getText());
