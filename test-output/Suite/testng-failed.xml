@@ -6,37 +6,26 @@
     <listener class-name="utilities.RetryListener"/>
   </listeners>
   <test thread-count="5" name="test(failed)">
-    <parameter name="os" value="Windows"/>
+    <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_LoginTest">
-        <methods>
-          <include name="afterClass"/>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="afterSuite"/>
-          <include name="verify_login"/>
-          <include name="setup"/>
-          <include name="beforeTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC001_AccountRegistration">
         <methods>
-          <include name="verify_account_registration_Different_password"/>
+          <include name="verify_account_registration_DontCheckPrivacyPolicy"/>
+          <include name="verify_account_registration_AlreadyExistEmail"/>
           <include name="afterClass"/>
           <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="verify_account_registration_Newsletter_No_Validation"/>
           <include name="afterSuite"/>
-          <include name="verify_account_registration_EmailConfirmation"/>
-          <include name="setup"/>
-          <include name="beforeTest"/>
+          <include name="verify_account_registration_Newsletter_No_Validation"/>
           <include name="verify_account_registration_Newsletter_yes_Validation"/>
           <include name="verify_account_registration"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
+          <include name="verify_account_registration_Different_password"/>
+          <include name="beforeClass"/>
+          <include name="verify_account_registration_EmailConfirmation"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistration -->
     </classes>

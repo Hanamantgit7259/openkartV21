@@ -50,6 +50,9 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//div[text()='Warning: You must agree to the Privacy Policy!']")
 	WebElement privacyPolicyWarning;
 
+	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+	WebElement emailDuplicateError;
+
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
 	}
@@ -103,6 +106,16 @@ public class AccountRegistrationPage extends BasePage {
 
 		try {
 			return privacyPolicyWarning.getText();
+		} catch (Exception e) {
+			return e.getMessage();
+		}
+
+	}
+
+	public String EmailDuplicateValidation() {
+
+		try {
+			return emailDuplicateError.getText();
 		} catch (Exception e) {
 			return e.getMessage();
 		}

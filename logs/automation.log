@@ -1,212 +1,140 @@
-2025-08-09 00:05:03 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-09 00:05:04 INFO  Utils:112 - [TestNG] Running:
+2025-08-10 18:04:45 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-10 18:04:46 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-09 00:05:10 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-09 00:05:10 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-09 00:05:11 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-09 00:05:11 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-09 00:05:14 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-09 00:05:14 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-09 00:05:14 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-09 00:05:18 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-09 00:05:19 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-09 00:05:21 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-09 00:05:21 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-09 00:05:25 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-09 00:05:25 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-09 00:05:25 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-09 00:05:29 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-09 00:05:31 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-09 00:05:31 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-09 00:05:32 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-09 00:05:32 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-09 00:05:34 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-09 00:05:34 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-09 00:05:34 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-09 00:05:38 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
-2025-08-09 00:05:42 INFO  TC001_AccountRegistration:220 - Test Passed
-2025-08-09 00:05:42 INFO  TC001_AccountRegistration:227 - ***** Finished 5th test case test cases*****
-2025-08-09 00:05:46 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-09 00:05:46 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
-2025-08-09 00:05:47 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
-2025-08-09 00:05:47 INFO  TC001_AccountRegistration:158 - Filling persnal information details
-2025-08-09 00:05:48 INFO  TC001_AccountRegistration:164 - Personal information is done
-2025-08-09 00:05:48 INFO  TC001_AccountRegistration:166 - Filling Your Password details
-2025-08-09 00:05:49 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
-2025-08-09 00:05:51 INFO  TC001_AccountRegistration:177 - Validating expected message..
-2025-08-09 00:05:51 INFO  TC001_AccountRegistration:181 - Test passed
-2025-08-09 00:05:51 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
-2025-08-09 00:05:54 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-09 00:05:57 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-09 00:09:26 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-09 00:09:36 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-09 00:09:37 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-09 00:09:38 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-09 00:09:38 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-09 00:09:40 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-09 00:09:40 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-09 00:09:40 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-09 00:09:44 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-09 00:09:45 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-09 00:09:46 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-09 00:09:46 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-09 00:09:48 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-09 00:09:48 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-09 00:09:48 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-09 00:09:56 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-09 00:09:57 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-09 00:09:57 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-09 00:09:57 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-09 00:09:58 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-09 00:09:59 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-09 00:09:59 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-09 00:09:59 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-09 00:10:05 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-09 00:10:05 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
-2025-08-09 00:10:07 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
-2025-08-09 00:10:07 INFO  TC001_AccountRegistration:158 - Filling persnal information details
-2025-08-09 00:10:08 INFO  TC001_AccountRegistration:164 - Personal information is done
-2025-08-09 00:10:08 INFO  TC001_AccountRegistration:166 - Filling Your Password details
-2025-08-09 00:10:08 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
-2025-08-09 00:10:09 INFO  TC001_AccountRegistration:177 - Validating expected message..
-2025-08-09 00:10:10 INFO  TC001_AccountRegistration:181 - Test passed
-2025-08-09 00:10:10 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
-2025-08-09 00:10:14 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
-2025-08-09 00:10:18 INFO  TC001_AccountRegistration:220 - Test Passed
-2025-08-09 00:10:18 INFO  TC001_AccountRegistration:227 - ***** Finished 5th test case test cases*****
-2025-08-09 00:10:24 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-09 00:10:29 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-09 01:25:14 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-09 01:25:15 INFO  Utils:112 - [TestNG] Running:
+2025-08-10 18:05:23 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-10 18:05:24 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-09 01:43:56 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-09 01:43:57 INFO  Utils:112 - [TestNG] Running:
+2025-08-10 18:05:34 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:05:40 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:05:46 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:07:31 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-10 18:07:31 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-09 01:44:13 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-09 01:44:14 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-09 01:44:17 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-09 01:44:17 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-09 01:44:20 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-09 01:44:21 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-09 01:44:21 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-09 01:44:27 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-09 01:44:27 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-09 01:44:29 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-09 01:44:29 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-09 01:44:33 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-09 01:44:33 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-09 01:44:33 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-09 01:44:40 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-09 01:44:41 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-09 01:44:41 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-09 01:44:42 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-09 01:44:43 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-09 01:44:45 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-09 01:44:45 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-09 01:44:45 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-09 01:44:51 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-09 01:44:51 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
-2025-08-09 01:44:52 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
-2025-08-09 01:44:52 INFO  TC001_AccountRegistration:158 - Filling persnal information details
-2025-08-09 01:44:53 INFO  TC001_AccountRegistration:164 - Personal information is done
-2025-08-09 01:44:53 INFO  TC001_AccountRegistration:166 - Filling Your Password details
-2025-08-09 01:44:54 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
-2025-08-09 01:44:56 INFO  TC001_AccountRegistration:177 - Validating expected message..
-2025-08-09 01:44:56 INFO  TC001_AccountRegistration:181 - Test passed
-2025-08-09 01:44:56 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
-2025-08-09 01:45:09 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
-2025-08-09 01:45:14 INFO  TC001_AccountRegistration:220 - Test Passed
-2025-08-09 01:45:14 INFO  TC001_AccountRegistration:227 - ***** Finished 5th test case test cases*****
-2025-08-09 01:45:29 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-09 01:45:33 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-09 02:15:32 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-09 02:15:33 INFO  Utils:112 - [TestNG] Running:
+2025-08-10 18:07:36 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-10 18:07:37 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-10 18:07:38 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-10 18:07:38 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-10 18:07:40 INFO  TC001_AccountRegistration:43 - Validating expected message..
+2025-08-10 18:07:40 INFO  TC001_AccountRegistration:48 - Test passed
+2025-08-10 18:07:40 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-10 18:07:43 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-10 18:07:44 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
+2025-08-10 18:07:45 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
+2025-08-10 18:07:45 INFO  TC001_AccountRegistration:72 - Providing customer details...
+2025-08-10 18:07:46 INFO  TC001_AccountRegistration:88 - Validating expected message..
+2025-08-10 18:07:46 INFO  TC001_AccountRegistration:93 - Test passed
+2025-08-10 18:07:46 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
+2025-08-10 18:07:50 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
+2025-08-10 18:07:51 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
+2025-08-10 18:07:51 INFO  TC001_AccountRegistration:113 - Filling the register account details
+2025-08-10 18:07:52 INFO  TC001_AccountRegistration:120 - Your Password details
+2025-08-10 18:07:52 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
+2025-08-10 18:07:53 INFO  TC001_AccountRegistration:131 - Validating expected message..
+2025-08-10 18:07:53 INFO  TC001_AccountRegistration:136 - Test passed
+2025-08-10 18:07:53 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
+2025-08-10 18:07:57 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
+2025-08-10 18:07:57 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
+2025-08-10 18:07:58 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
+2025-08-10 18:07:58 INFO  TC001_AccountRegistration:158 - Filling persnal information details
+2025-08-10 18:07:59 INFO  TC001_AccountRegistration:164 - Personal information is done
+2025-08-10 18:07:59 INFO  TC001_AccountRegistration:166 - Filling Your Password details
+2025-08-10 18:07:59 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
+2025-08-10 18:08:00 INFO  TC001_AccountRegistration:177 - Validating expected message..
+2025-08-10 18:08:00 INFO  TC001_AccountRegistration:181 - Test passed
+2025-08-10 18:08:00 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
+2025-08-10 18:08:02 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
+2025-08-10 18:08:05 INFO  TC001_AccountRegistration:220 - Test Passed
+2025-08-10 18:08:05 INFO  TC001_AccountRegistration:225 - ***** Finished 5th test case test cases*****
+2025-08-10 18:08:08 INFO  TC001_AccountRegistration:232 - ****verify_account_registration_Different password****
+2025-08-10 18:08:13 INFO  TC001_AccountRegistration:254 - Test is Passed
+2025-08-10 18:08:13 INFO  TC001_AccountRegistration:259 - 6th Test Excution is completed
+2025-08-10 18:08:17 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:08:24 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:08:30 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:21 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADC\AppData\Local\Temp\testng-eclipse--664572810\testng-customsuite.xml
+
+2025-08-10 18:11:22 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3b77a04f: 148 ms
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@6f2cb653: 41 ms
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2b95e48b: 60 ms
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@285c08c8: 20 ms
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1dd0e7c4: 22 ms
+2025-08-10 18:11:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7894f09b: 1 ms
+2025-08-10 18:11:31 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
+2025-08-10 18:11:32 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
 
-2025-08-09 02:15:52 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-09 02:15:52 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-09 02:15:53 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-09 02:15:53 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-09 02:15:57 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-09 02:15:57 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-09 02:15:57 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-09 02:16:13 INFO  TC001_AccountRegistration:232 - ****verify_account_registration_Different password****
-2025-08-09 02:16:18 INFO  TC001_AccountRegistration:254 - Test is Passed
-2025-08-09 02:16:18 INFO  TC001_AccountRegistration:259 - 6th Test Excution is completed
-2025-08-09 02:16:23 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-09 02:16:24 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-09 02:16:25 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-09 02:16:25 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-09 02:16:27 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-09 02:16:27 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-09 02:16:27 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-09 02:16:31 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-09 02:16:33 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-09 02:16:33 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-09 02:16:35 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-09 02:16:35 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-09 02:16:37 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-09 02:16:37 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-09 02:16:37 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-09 02:16:42 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-09 02:16:42 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
-2025-08-09 02:16:43 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
-2025-08-09 02:16:43 INFO  TC001_AccountRegistration:158 - Filling persnal information details
-2025-08-09 02:16:44 INFO  TC001_AccountRegistration:164 - Personal information is done
-2025-08-09 02:16:44 INFO  TC001_AccountRegistration:166 - Filling Your Password details
-2025-08-09 02:16:45 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
-2025-08-09 02:16:48 INFO  TC001_AccountRegistration:177 - Validating expected message..
-2025-08-09 02:16:48 INFO  TC001_AccountRegistration:181 - Test passed
-2025-08-09 02:16:48 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
-2025-08-09 02:16:56 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
-2025-08-09 02:17:00 INFO  TC001_AccountRegistration:220 - Test Passed
-2025-08-09 02:17:00 INFO  TC001_AccountRegistration:225 - ***** Finished 5th test case test cases*****
-2025-08-09 02:17:06 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-09 02:17:09 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-09 02:18:12 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\ADC\eclipse-workspace\openkartV21\master.xml] otherwise TestNG may fail or not work as expected.
-2025-08-09 02:18:13 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADC\eclipse-workspace\openkartV21\master.xml
-
-2025-08-09 02:18:45 INFO  TC001_AccountRegistration:232 - ****verify_account_registration_Different password****
-2025-08-09 02:18:51 INFO  TC001_AccountRegistration:254 - Test is Passed
-2025-08-09 02:18:51 INFO  TC001_AccountRegistration:259 - 6th Test Excution is completed
-2025-08-09 02:18:55 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-09 02:18:55 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-09 02:18:56 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-09 02:18:56 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-09 02:18:58 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-09 02:18:58 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-09 02:18:58 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-09 02:19:02 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-09 02:19:03 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-09 02:19:04 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-09 02:19:04 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-09 02:19:06 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-09 02:19:06 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-09 02:19:06 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-09 02:19:12 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-09 02:19:14 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-09 02:19:14 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-09 02:19:14 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-09 02:19:15 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-09 02:19:16 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-09 02:19:16 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-09 02:19:16 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-09 02:19:34 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-09 02:19:34 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
-2025-08-09 02:19:36 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
-2025-08-09 02:19:36 INFO  TC001_AccountRegistration:158 - Filling persnal information details
-2025-08-09 02:19:37 INFO  TC001_AccountRegistration:164 - Personal information is done
-2025-08-09 02:19:37 INFO  TC001_AccountRegistration:166 - Filling Your Password details
-2025-08-09 02:19:37 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
-2025-08-09 02:19:39 INFO  TC001_AccountRegistration:177 - Validating expected message..
-2025-08-09 02:19:39 INFO  TC001_AccountRegistration:181 - Test passed
-2025-08-09 02:19:39 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
-2025-08-09 02:19:43 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
-2025-08-09 02:19:47 INFO  TC001_AccountRegistration:220 - Test Passed
-2025-08-09 02:19:47 INFO  TC001_AccountRegistration:225 - ***** Finished 5th test case test cases*****
-2025-08-09 02:19:53 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-09 02:19:56 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2025-08-10 18:11:38 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-10 18:11:39 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-10 18:11:39 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-10 18:11:39 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-10 18:11:42 INFO  TC001_AccountRegistration:43 - Validating expected message..
+2025-08-10 18:11:42 INFO  TC001_AccountRegistration:48 - Test passed
+2025-08-10 18:11:42 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-10 18:11:45 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-10 18:11:46 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
+2025-08-10 18:11:46 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
+2025-08-10 18:11:46 INFO  TC001_AccountRegistration:72 - Providing customer details...
+2025-08-10 18:11:48 INFO  TC001_AccountRegistration:88 - Validating expected message..
+2025-08-10 18:11:48 INFO  TC001_AccountRegistration:93 - Test passed
+2025-08-10 18:11:48 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
+2025-08-10 18:11:52 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
+2025-08-10 18:11:54 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
+2025-08-10 18:11:54 INFO  TC001_AccountRegistration:113 - Filling the register account details
+2025-08-10 18:11:54 INFO  TC001_AccountRegistration:120 - Your Password details
+2025-08-10 18:11:55 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
+2025-08-10 18:11:56 INFO  TC001_AccountRegistration:131 - Validating expected message..
+2025-08-10 18:11:56 INFO  TC001_AccountRegistration:136 - Test passed
+2025-08-10 18:11:56 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
+2025-08-10 18:12:01 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
+2025-08-10 18:12:01 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
+2025-08-10 18:12:02 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
+2025-08-10 18:12:02 INFO  TC001_AccountRegistration:158 - Filling persnal information details
+2025-08-10 18:12:03 INFO  TC001_AccountRegistration:164 - Personal information is done
+2025-08-10 18:12:03 INFO  TC001_AccountRegistration:166 - Filling Your Password details
+2025-08-10 18:12:03 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
+2025-08-10 18:12:04 INFO  TC001_AccountRegistration:177 - Validating expected message..
+2025-08-10 18:12:04 INFO  TC001_AccountRegistration:181 - Test passed
+2025-08-10 18:12:04 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
+2025-08-10 18:12:07 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
+2025-08-10 18:12:11 INFO  TC001_AccountRegistration:220 - Test Passed
+2025-08-10 18:12:11 INFO  TC001_AccountRegistration:225 - ***** Finished 5th test case test cases*****
+2025-08-10 18:12:14 INFO  TC001_AccountRegistration:232 - ****verify_account_registration_Different password****
+2025-08-10 18:12:19 INFO  TC001_AccountRegistration:254 - Test is Passed
+2025-08-10 18:12:19 INFO  TC001_AccountRegistration:259 - 6th Test Excution is completed
+2025-08-10 18:12:22 INFO  TC001_AccountRegistration:265 - ****verify_account_registration_Already exist Email error***
+2025-08-10 18:12:25 INFO  TC001_AccountRegistration:289 - Test Passed

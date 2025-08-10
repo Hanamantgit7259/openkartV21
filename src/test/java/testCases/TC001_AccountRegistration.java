@@ -12,7 +12,7 @@ import testBase.BaseClass;
 
 public class TC001_AccountRegistration extends BaseClass {
 
-	@Test(groups = { "Regression", "Master" }, priority = 2)
+	@Test(groups = { "Regression", "Master" }, priority = 1)
 	public void verify_account_registration() {
 		logger.info("***** Starting TC001_AccountRegistrationTest  ****");
 		logger.debug("This is a debug log message");
@@ -227,7 +227,7 @@ public class TC001_AccountRegistration extends BaseClass {
 
 	}
 
-	@Test(groups = { "Regression", "Master" }, priority = 1)
+	@Test(groups = { "Regression", "Master" }, priority = 6)
 	public void verify_account_registration_DontCheckPrivacyPolicy() {
 		logger.info("****verify_account_registration_Different password****");
 		logger.debug("This is a debug log message");
@@ -258,6 +258,41 @@ public class TC001_AccountRegistration extends BaseClass {
 		} finally {
 			logger.info("6th Test Excution is completed");
 		}
+	}
+
+	@Test(groups = { "Regression", "Master" }, priority = 7)
+	public void verify_account_registration_AlreadyExistEmail() {
+		logger.info("****verify_account_registration_Already exist Email error***");
+		logger.debug("This is a debug log message");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
+
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+			accreg.setFirstName(randomeString().toLowerCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail("hanamant71198@gmail.com");
+			accreg.setTelephone(randomeAlphaNumberic());
+
+			String pwd = randomeAlphaNumberic();
+			accreg.setPassword(pwd);
+			accreg.setConfirmPassword(pwd);
+
+			accreg.selectNewsLetterYes();
+			accreg.setPrivacyPolicy();
+			accreg.clickContinue();
+
+			String emailError = accreg.EmailDuplicateValidation();
+			Assert.assertEquals(emailError, "Warning: E-Mail Address is already registered!");
+			logger.info("Test Passed");
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		}
+
 	}
 
 }
