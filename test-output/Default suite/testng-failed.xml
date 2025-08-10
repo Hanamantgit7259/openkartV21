@@ -5,9 +5,21 @@
     <classes>
       <class name="testCases.TC001_AccountRegistration">
         <methods>
+          <include name="verify_account_registration_DontCheckPrivacyPolicy"/>
+          <include name="afterClass"/>
+          <include name="verify_account_registration_AlreadyExistEmail"/>
           <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="verify_account_registration_Newsletter_No_Validation"/>
+          <include name="verify_account_registration_Newsletter_yes_Validation"/>
           <include name="verify_account_registration"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="verify_account_registration_Different_password"/>
+          <include name="beforeClass"/>
+          <include name="verify_account_registration_EmailConfirmation"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistration -->
     </classes>
