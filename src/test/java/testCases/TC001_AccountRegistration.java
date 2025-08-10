@@ -223,6 +223,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test failed: " + e.getMessage());
 		} finally {
 			logger.info("***** Finished 5th test case test cases*****");
+			driver.close();
 		}
 
 	}
@@ -257,6 +258,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test Failed : " + e.getMessage());
 		} finally {
 			logger.info("6th Test Excution is completed");
+			driver.close();
 		}
 	}
 
@@ -295,4 +297,39 @@ public class TC001_AccountRegistration extends BaseClass {
 
 	}
 
+	@Test(groups = { "Regression", "Master" }, priority = 8)
+	public void verify_account_registration_InvalidaEmail() {
+		logger.info("****verify_account_registration_InvalidEmail***");
+		logger.debug("This is a debug log message");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
+
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+			accreg.setFirstName(randomeString().toLowerCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail("hanamant@gmail");
+			accreg.setTelephone(randomeAlphaNumberic());
+
+			String pwd = randomeAlphaNumberic();
+			accreg.setPassword(pwd);
+			accreg.setConfirmPassword(pwd);
+
+			accreg.selectNewsLetterYes();
+			accreg.setPrivacyPolicy();
+			accreg.clickContinue();
+
+			String emailError = accreg.inValidaEmailValidation();
+			Assert.assertEquals(emailError, "E-Mail Address does not appear to be valid!");
+			logger.info("Test Passed");
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		}
+
+	}
+	
 }

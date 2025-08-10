@@ -53,6 +53,9 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
 	WebElement emailDuplicateError;
 
+	@FindBy(xpath = "//div[text()='E-Mail Address does not appear to be valid!']")
+	WebElement inValidEmail;
+
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
 	}
@@ -120,6 +123,15 @@ public class AccountRegistrationPage extends BasePage {
 			return e.getMessage();
 		}
 
+	}
+
+	public String inValidaEmailValidation() {
+
+		try {
+			return inValidEmail.getText();
+		} catch (Exception e) {
+			return e.getMessage();
+		}
 	}
 
 	public void clickContinue() {
