@@ -332,4 +332,74 @@ public class TC001_AccountRegistration extends BaseClass {
 
 	}
 	
+	@Test(groups = { "Regression", "Master" }, priority = 9)
+	public void verify_account_registration_FirstNameMandatory() {
+		logger.info("****verify_account_registration_InvalidEmail***");
+		logger.debug("This is a debug log message");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
+
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+		//	accreg.setFirstName(randomeString().toLowerCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail(randomeString() + "@gmail.com");
+			accreg.setTelephone(randomeAlphaNumberic());
+
+			String pwd = randomeAlphaNumberic();
+			accreg.setPassword(pwd);
+			accreg.setConfirmPassword(pwd);
+
+			accreg.selectNewsLetterYes();
+			accreg.setPrivacyPolicy();
+			accreg.clickContinue();
+
+			String fnameMandatory = accreg.FirstNameMandatory();
+			Assert.assertEquals(fnameMandatory, "First Name must be between 1 and 32 characters!");
+			logger.info("Test Passed");
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		}
+
+	}
+	
+	@Test(groups = { "Regression", "Master" }, priority = 10)
+	public void verify_account_registration_NoConfirmationPwd() {
+		logger.info("****verify_account_registration_InvalidEmail***");
+		logger.debug("This is a debug log message");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickRegister();
+
+			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
+		//	accreg.setFirstName(randomeString().toLowerCase());
+			accreg.setLastName(randomeString().toUpperCase());
+			accreg.setEmail(randomeString() + "@gmail.com");
+			accreg.setTelephone(randomeAlphaNumberic());
+
+			String pwd = randomeAlphaNumberic();
+			accreg.setPassword(pwd);
+		//	accreg.setConfirmPassword(pwd);
+
+			accreg.selectNewsLetterYes();
+			accreg.setPrivacyPolicy();
+			accreg.clickContinue();
+
+			String NoConfPwd = accreg.NoConfirmPwd();
+			Assert.assertEquals(NoConfPwd, "Password confirmation does not match password!");
+			logger.info("Test Passed");
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		}
+
+	}
+	
 }

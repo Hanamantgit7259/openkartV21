@@ -56,6 +56,12 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//div[text()='E-Mail Address does not appear to be valid!']")
 	WebElement inValidEmail;
 
+	@FindBy(xpath = "//*[text()='First Name must be between 1 and 32 characters!']")
+	WebElement firstNameMandatory;
+
+	@FindBy(xpath = "//*[text()='Password confirmation does not match password!']")
+	WebElement NoPwdConfirmationError;
+
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
 	}
@@ -129,6 +135,23 @@ public class AccountRegistrationPage extends BasePage {
 
 		try {
 			return inValidEmail.getText();
+		} catch (Exception e) {
+			return e.getMessage();
+		}
+	}
+
+	public String FirstNameMandatory() {
+
+		try {
+			return firstNameMandatory.getText();
+		} catch (Exception e) {
+			return e.getMessage();
+		}
+	}
+
+	public String NoConfirmPwd() {
+		try {
+			return NoPwdConfirmationError.getText();
 		} catch (Exception e) {
 			return e.getMessage();
 		}

@@ -25,6 +25,8 @@ import org.testng.annotations.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import io.github.bonigarcia.wdm.WebDriverManager; // ✅ WebDriverManager import
+
 public class BaseClass {
 
     public WebDriver driver;
@@ -51,7 +53,7 @@ public class BaseClass {
     public void setup(String os, String br) throws IOException {
         System.out.println(">>> Before Method - Browser Setup");
 
-        // Load properties file
+        // Load properties
         FileReader file = new FileReader("./src/test/resources/config.properties");
         p = new Properties();
         p.load(file);
@@ -61,7 +63,7 @@ public class BaseClass {
         if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
-            // OS Platform
+            // OS selection
             switch (os.toLowerCase()) {
                 case "windows": capabilities.setPlatform(Platform.WIN11); break;
                 case "linux": capabilities.setPlatform(Platform.LINUX); break;
@@ -69,7 +71,7 @@ public class BaseClass {
                 default: System.out.println("No matching OS"); return;
             }
 
-            // Browser
+            // Browser selection
             switch (br.toLowerCase()) {
                 case "chrome": capabilities.setBrowserName("chrome"); break;
                 case "edge": capabilities.setBrowserName("MicrosoftEdge"); break;
@@ -78,13 +80,25 @@ public class BaseClass {
             }
 
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+
         } else {
-            // Local Execution
+            // Local Execution with WebDriverManager
             switch (br.toLowerCase()) {
-                case "chrome": driver = new ChromeDriver(); break;
-                case "edge": driver = new EdgeDriver(); break;
-                case "firefox": driver = new FirefoxDriver(); break;
-                default: System.out.println("Invalid browser name"); return;
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                case "edge":
+                    WebDriverManager.edgedriver().setup();
+                    driver = new EdgeDriver();
+                    break;
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                default:
+                    System.out.println("Invalid browser name");
+                    return;
             }
         }
 

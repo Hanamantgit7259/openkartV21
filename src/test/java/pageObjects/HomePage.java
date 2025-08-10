@@ -18,6 +18,8 @@ public class HomePage extends BasePage {
 	
 	@FindBy(linkText = "Login")
 	WebElement linkLogin;
+	
+	 
 
 	public void clickMyAccount() {
 		lnkMyaccount.click();
