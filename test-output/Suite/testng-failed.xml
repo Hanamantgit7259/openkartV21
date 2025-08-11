@@ -7,27 +7,25 @@
   </listeners>
   <test thread-count="5" name="test(failed)">
     <parameter name="os" value="linux"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistration">
+      <class name="testCases.TC002_LoginTest">
         <methods>
-          <include name="verify_account_registration_DontCheckPrivacyPolicy"/>
-          <include name="verify_account_registration_AlreadyExistEmail"/>
           <include name="afterClass"/>
+          <include name="verify_login_inValid_Credentials"/>
+          <include name="verify_login_Valid_Credentials"/>
           <include name="tearDown"/>
-          <include name="afterSuite"/>
-          <include name="verify_account_registration_Newsletter_No_Validation"/>
-          <include name="verify_account_registration_Newsletter_yes_Validation"/>
-          <include name="verify_account_registration"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="verify_account_registration_Different_password"/>
           <include name="beforeClass"/>
-          <include name="verify_account_registration_EmailConfirmation"/>
+          <include name="afterSuite"/>
+          <include name="verify_login_withoutEmail_pwd"/>
           <include name="setup"/>
           <include name="beforeTest"/>
+          <include name="verify_login_inValid_pwd_Email"/>
+          <include name="verify_login_inValid_pwd"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistration -->
+      </class> <!-- testCases.TC002_LoginTest -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

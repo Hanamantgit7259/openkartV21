@@ -147,11 +147,12 @@ public class TC001_AccountRegistration extends BaseClass {
 	}
 
 	@Test(groups = { "Regression", "Master" }, priority = 4)
-	public void verify_account_registration_Newsletter_yes_Validation() {
+	public void verify_account_registration_Newsletter_yes_Validation() throws InterruptedException {
 		logger.info("****verify_account_registration_Newsletter_yes_Validation****");
 		logger.debug("This is a debug log message");
 
 		logger.info("Currently on home page clicking on My account and register");
+		Thread.sleep(5000);
 		try {
 			HomePage hm = new HomePage(driver);
 			hm.clickMyAccount();
