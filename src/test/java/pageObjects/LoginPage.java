@@ -21,7 +21,7 @@ public class LoginPage extends BasePage {
 	WebElement btnLogin;
 
 	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
-	WebElement EmailError;
+	WebElement Email_pwd_Error;
 
 	public void setEmail(String email) {
 		txtEmailAddress.sendKeys(email);
@@ -36,10 +36,10 @@ public class LoginPage extends BasePage {
 		btnLogin.click();
 	}
 
-	public String EmailErrorValidations() {
+	public String Email_pwd_ErrorValidations() {
 
 		try {
-			return EmailError.getText();
+			return Email_pwd_Error.getText();
 		} catch (Exception e) {
 			return e.getMessage();
 		}

@@ -33,10 +33,9 @@ public class TC002_LoginTest extends BaseClass {
 			Assert.assertTrue(targetPage);// Assert.assertEquals(targetPage, true,"Login failed");
 		} catch (Exception e) {
 			Assert.fail();
-		}
-		finally {
-		logger.info("****** Finished TC_002_LoginTest *****");
-		driver.quit();
+		} finally {
+			logger.info("****** Finished TC_002_LoginTest *****");
+			driver.quit();
 		}
 	}
 
@@ -50,11 +49,12 @@ public class TC002_LoginTest extends BaseClass {
 			hm.clickLogin();
 
 			LoginPage lp = new LoginPage(driver);
-			lp.setEmail(p.getProperty("email")+"11");
+			// lp.setEmail(p.getProperty("email") + "11");
+			lp.setEmail("hana@123");
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 
-			String emailActualError = lp.EmailErrorValidations();
+			String emailActualError = lp.Email_pwd_ErrorValidations();
 
 			Assert.assertEquals(emailActualError, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test Passed");
@@ -63,8 +63,95 @@ public class TC002_LoginTest extends BaseClass {
 			Assert.fail("Test Failed : " + e.getMessage());
 		} finally {
 			logger.info("Browser closed");
-			//driver.close();
+			// driver.close();
 			driver.quit();
 		}
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 3)
+	public void verify_login_inValid_pwd() {
+		logger.info("****** Startign TC_002_LoginTest_Method 3 *****");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+			lp.setEmail(p.getProperty("email"));
+			// lp.setPassword(p.getProperty("password")+"11");
+			lp.setPassword("111");
+			lp.clickLogin();
+
+			String emailActualError = lp.Email_pwd_ErrorValidations();
+
+			Assert.assertEquals(emailActualError, "Warning: No match for E-Mail Address and/or Password.");
+			logger.info("Test Passed");
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			logger.info("Browser closed");
+			// driver.close();
+			driver.quit();
+		}
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 4)
+	public void verify_login_inValid_pwd_Email() {
+		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			// hm.clickRegister();
+			hm.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+			// lp.setEmail(p.getProperty("email") + "11");
+			lp.setEmail("hana@123");
+			// lp.setPassword(p.getProperty("password")+"11");
+			lp.setPassword("111");
+			lp.clickLogin();
+
+			String error = lp.Email_pwd_ErrorValidations();
+			Assert.assertEquals(error, "Warning: No match for E-Mail Address and/or Password.");
+			logger.info("Test Passed");
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			logger.info("Test completed");
+			driver.quit();
+		}
+
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 5)
+	public void verify_login_withoutEmail_pwd() {
+		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			// hm.clickRegister();
+			hm.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+
+			lp.clickLogin();
+			
+
+			String error = lp.Email_pwd_ErrorValidations();
+			Assert.assertEquals(error, "Warning: No match for E-Mail Address and/or Password.");
+			logger.info("Test Passed");
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			logger.info("Test completed");
+			driver.quit();
+		}
+
 	}
 }
