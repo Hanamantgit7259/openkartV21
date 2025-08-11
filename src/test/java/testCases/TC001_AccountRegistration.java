@@ -51,6 +51,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test failed: " + e.getMessage());
 		} finally {
 			logger.info("***** Finished TC001_AccountRegistrationTest *****");
+			driver.quit();
 		}
 
 	}
@@ -96,6 +97,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test failed: " + e.getMessage());
 		} finally {
 			logger.info("***** Finished Test 2 *****");
+			driver.quit();
 		}
 
 	}
@@ -139,6 +141,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test failed: " + e.getMessage());
 		} finally {
 			logger.info("***** Finished 3rd test cases*****");
+			driver.quit();
 		}
 
 	}
@@ -186,6 +189,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test failed: " + e.getMessage());
 		} finally {
 			logger.info("***** Finished 4th test case test cases*****");
+			driver.quit();
 		}
 	}
 
@@ -223,7 +227,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test failed: " + e.getMessage());
 		} finally {
 			logger.info("***** Finished 5th test case test cases*****");
-			driver.close();
+			driver.quit();
 		}
 
 	}
@@ -258,7 +262,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			Assert.fail("Test Failed : " + e.getMessage());
 		} finally {
 			logger.info("6th Test Excution is completed");
-			driver.close();
+			driver.quit();
 		}
 	}
 
@@ -293,6 +297,9 @@ public class TC001_AccountRegistration extends BaseClass {
 		} catch (Exception e) {
 			logger.info("Test Failed : " + e.getMessage());
 			Assert.fail("Test Failed : " + e.getMessage());
+
+		} finally {
+			driver.quit();
 		}
 
 	}
@@ -328,10 +335,12 @@ public class TC001_AccountRegistration extends BaseClass {
 		} catch (Exception e) {
 			logger.info("Test Failed : " + e.getMessage());
 			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			driver.quit();
 		}
 
 	}
-	
+
 	@Test(groups = { "Regression", "Master" }, priority = 9)
 	public void verify_account_registration_FirstNameMandatory() {
 		logger.info("****verify_account_registration_InvalidEmail***");
@@ -343,7 +352,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			hm.clickRegister();
 
 			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
-		//	accreg.setFirstName(randomeString().toLowerCase());
+			// accreg.setFirstName(randomeString().toLowerCase());
 			accreg.setLastName(randomeString().toUpperCase());
 			accreg.setEmail(randomeString() + "@gmail.com");
 			accreg.setTelephone(randomeAlphaNumberic());
@@ -363,10 +372,12 @@ public class TC001_AccountRegistration extends BaseClass {
 		} catch (Exception e) {
 			logger.info("Test Failed : " + e.getMessage());
 			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			driver.quit();
 		}
 
 	}
-	
+
 	@Test(groups = { "Regression", "Master" }, priority = 10)
 	public void verify_account_registration_NoConfirmationPwd() {
 		logger.info("****verify_account_registration_InvalidEmail***");
@@ -378,14 +389,14 @@ public class TC001_AccountRegistration extends BaseClass {
 			hm.clickRegister();
 
 			AccountRegistrationPage accreg = new AccountRegistrationPage(driver);
-		//	accreg.setFirstName(randomeString().toLowerCase());
+			// accreg.setFirstName(randomeString().toLowerCase());
 			accreg.setLastName(randomeString().toUpperCase());
 			accreg.setEmail(randomeString() + "@gmail.com");
 			accreg.setTelephone(randomeAlphaNumberic());
 
 			String pwd = randomeAlphaNumberic();
 			accreg.setPassword(pwd);
-		//	accreg.setConfirmPassword(pwd);
+			// accreg.setConfirmPassword(pwd);
 
 			accreg.selectNewsLetterYes();
 			accreg.setPrivacyPolicy();
@@ -398,8 +409,10 @@ public class TC001_AccountRegistration extends BaseClass {
 		} catch (Exception e) {
 			logger.info("Test Failed : " + e.getMessage());
 			Assert.fail("Test Failed : " + e.getMessage());
+		} finally {
+			driver.quit();
 		}
 
 	}
-	
+
 }

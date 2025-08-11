@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">12 methods,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -153,7 +153,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="verify_login">verify_login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="verify_login_Valid_Credentials">verify_login_Valid_Credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="verify_login_inValid_Credentials">verify_login_inValid_Credentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -254,9 +259,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_login">
-                  </a> <!-- verify_login -->
-                  <span class="method-name">verify_login</span>
+                  <a name="verify_login_Valid_Credentials">
+                  </a> <!-- verify_login_Valid_Credentials -->
+                  <span class="method-name">verify_login_Valid_Credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_inValid_Credentials">
+                  </a> <!-- verify_login_inValid_Credentials -->
+                  <span class="method-name">verify_login_inValid_Credentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -348,7 +360,11 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">verify_login</span>
+                <span class="method-in-group-name">verify_login_Valid_Credentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_inValid_Credentials</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -400,7 +416,11 @@
               <span class="test-group-name">Sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verify_login</span>
+                <span class="method-in-group-name">verify_login_Valid_Credentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_inValid_Credentials</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -420,56 +440,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_account_registration_DontCheckPrivacyPolicy')
+data.setCell(0, 1, 'verify_account_registration_Different_password')
 data.setCell(0, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(0, 3, 5691);
+data.setCell(0, 3, 5033);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verify_account_registration_Newsletter_yes_Validation')
+data.setCell(1, 1, 'verify_account_registration_InvalidaEmail')
 data.setCell(1, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(1, 3, 5214);
+data.setCell(1, 3, 4662);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verify_account_registration_EmailConfirmation')
+data.setCell(2, 1, 'verify_account_registration_DontCheckPrivacyPolicy')
 data.setCell(2, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(2, 3, 5031);
+data.setCell(2, 3, 4588);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verify_account_registration_Newsletter_No_Validation')
+data.setCell(3, 1, 'verify_account_registration')
 data.setCell(3, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(3, 3, 4721);
+data.setCell(3, 3, 4533);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verify_account_registration_Different_password')
+data.setCell(4, 1, 'verify_account_registration_Newsletter_No_Validation')
 data.setCell(4, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(4, 3, 4393);
+data.setCell(4, 3, 3890);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verify_account_registration_FirstNameMandatory')
+data.setCell(5, 1, 'verify_account_registration_EmailConfirmation')
 data.setCell(5, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(5, 3, 4243);
+data.setCell(5, 3, 3821);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verify_account_registration_NoConfirmationPwd')
+data.setCell(6, 1, 'verify_account_registration_FirstNameMandatory')
 data.setCell(6, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(6, 3, 3976);
+data.setCell(6, 3, 3651);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verify_account_registration')
+data.setCell(7, 1, 'verify_account_registration_AlreadyExistEmail')
 data.setCell(7, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(7, 3, 3866);
+data.setCell(7, 3, 3484);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verify_account_registration_InvalidaEmail')
-data.setCell(8, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(8, 3, 3850);
+data.setCell(8, 1, 'verify_login_inValid_Credentials')
+data.setCell(8, 2, 'testCases.TC002_LoginTest')
+data.setCell(8, 3, 3436);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verify_login')
-data.setCell(9, 2, 'testCases.TC002_LoginTest')
-data.setCell(9, 3, 3285);
+data.setCell(9, 1, 'verify_account_registration_NoConfirmationPwd')
+data.setCell(9, 2, 'testCases.TC001_AccountRegistration')
+data.setCell(9, 3, 3393);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verify_account_registration_AlreadyExistEmail')
+data.setCell(10, 1, 'verify_account_registration_Newsletter_yes_Validation')
 data.setCell(10, 2, 'testCases.TC001_AccountRegistration')
-data.setCell(10, 3, 2870);
+data.setCell(10, 3, 3380);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_login_Valid_Credentials')
+data.setCell(11, 2, 'testCases.TC002_LoginTest')
+data.setCell(11, 3, 2424);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -492,11 +516,11 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
-                <span class="ignored-method-name">afterTest</span>
+                <span class="ignored-method-name">beforeTest</span>
                 <br/>
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">afterTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -515,169 +539,181 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">881 ms</span>
+                <span class="method-start">468 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">919 ms</span>
+                <span class="method-start">497 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">936 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verify_account_registration_NoConfirmationPwd</span>
-                <span class="method-start">8851 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12865 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">13730 ms</span>
+                <span class="method-start">522 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration</span>
-                <span class="method-start">19227 ms</span>
+                <span class="method-start">7977 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23102 ms</span>
+                <span class="method-start">12531 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">23692 ms</span>
+                <span class="method-start">12542 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_EmailConfirmation</span>
-                <span class="method-start">28282 ms</span>
+                <span class="method-start">17821 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33318 ms</span>
+                <span class="method-start">21647 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">33987 ms</span>
+                <span class="method-start">21650 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_Newsletter_No_Validation</span>
-                <span class="method-start">37305 ms</span>
+                <span class="method-start">24554 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42026 ms</span>
+                <span class="method-start">28446 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">42598 ms</span>
+                <span class="method-start">28447 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_Newsletter_yes_Validation</span>
-                <span class="method-start">46346 ms</span>
+                <span class="method-start">34144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51564 ms</span>
+                <span class="method-start">37528 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">52147 ms</span>
+                <span class="method-start">37530 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_Different_password</span>
-                <span class="method-start">55738 ms</span>
+                <span class="method-start">41417 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60138 ms</span>
+                <span class="method-start">46450 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">60607 ms</span>
+                <span class="method-start">46450 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_DontCheckPrivacyPolicy</span>
-                <span class="method-start">64211 ms</span>
+                <span class="method-start">52476 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69911 ms</span>
+                <span class="method-start">57067 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">70242 ms</span>
+                <span class="method-start">57290 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_AlreadyExistEmail</span>
-                <span class="method-start">75716 ms</span>
+                <span class="method-start">60231 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78587 ms</span>
+                <span class="method-start">63717 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">79058 ms</span>
+                <span class="method-start">63719 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_InvalidaEmail</span>
-                <span class="method-start">82827 ms</span>
+                <span class="method-start">67162 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">86681 ms</span>
+                <span class="method-start">71826 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">87156 ms</span>
+                <span class="method-start">71828 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_registration_FirstNameMandatory</span>
-                <span class="method-start">91463 ms</span>
+                <span class="method-start">75560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">95707 ms</span>
+                <span class="method-start">79219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(linux, chrome)</span>
+                <span class="method-start">79224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_account_registration_NoConfirmationPwd</span>
+                <span class="method-start">82690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86085 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">96176 ms</span>
+                <span class="method-start">86086 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">96177 ms</span>
+                <span class="method-start">86087 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(linux, chrome)</span>
-                <span class="method-start">96179 ms</span>
+                <span class="method-start">86088 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verify_login</span>
-                <span class="method-start">99701 ms</span>
+                <span class="method-name">verify_login_Valid_Credentials</span>
+                <span class="method-start">91858 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">102987 ms</span>
+                <span class="method-start">94284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(linux, chrome)</span>
+                <span class="method-start">94285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_login_inValid_Credentials</span>
+                <span class="method-start">97496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100934 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">103596 ms</span>
+                <span class="method-start">100935 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC001_AccountRegistration</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">103597 ms</span>
+                <span class="method-start">100936 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">105954 ms</span>
+                <span class="method-start">104766 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
