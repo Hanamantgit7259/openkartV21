@@ -140,7 +140,6 @@ public class TC002_LoginTest extends BaseClass {
 			LoginPage lp = new LoginPage(driver);
 
 			lp.clickLogin();
-			
 
 			String error = lp.Email_pwd_ErrorValidations();
 			Assert.assertEquals(error, "Warning: No match for E-Mail Address and/or Password.");
@@ -150,6 +149,29 @@ public class TC002_LoginTest extends BaseClass {
 			Assert.fail("Test Failed : " + e.getMessage());
 		} finally {
 			logger.info("Test completed");
+			driver.quit();
+		}
+
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 6)
+	public void verify_login_Forget_Password_Evaluation() {
+		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
+
+		try {
+			HomePage hm = new HomePage(driver);
+			hm.clickMyAccount();
+			hm.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+			boolean results = lp.ForgetPassword();
+
+			Assert.assertEquals(results, true);
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail();
+		} finally {
+			logger.info("Test Completed");
 			driver.quit();
 		}
 

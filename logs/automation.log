@@ -574,3 +574,20 @@ Session ID: c14408a239e09b1753abd2ab41df01f8
 2025-08-11 09:59:37 INFO  TC001_AccountRegistration:371 - Test Passed
 2025-08-11 09:59:42 INFO  TC001_AccountRegistration:384 - ****verify_account_registration_InvalidEmail***
 2025-08-11 09:59:45 INFO  TC001_AccountRegistration:408 - Test Passed
+2025-08-11 10:25:09 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-11 10:25:10 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-11 10:25:12 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-11 10:25:12 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-11 10:25:15 INFO  TC001_AccountRegistration:43 - Validating expected message..
+2025-08-11 10:25:15 INFO  TC001_AccountRegistration:48 - Test passed
+2025-08-11 10:25:15 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-11 10:26:43 INFO  TC002_LoginTest:159 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-11 10:26:45 INFO  TC002_LoginTest:174 - Test Completed
+2025-08-11 10:26:51 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-11 10:26:53 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-11 10:26:57 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
+2025-08-11 10:26:59 INFO  TC002_LoginTest:65 - Browser closed
+2025-08-11 10:27:03 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
+2025-08-11 10:27:07 INFO  TC002_LoginTest:65 - Browser closed
+2025-08-11 10:27:11 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
+2025-08-11 10:27:13 INFO  TC002_LoginTest:65 - Browser closed

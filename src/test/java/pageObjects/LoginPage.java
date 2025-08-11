@@ -23,9 +23,11 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
 	WebElement Email_pwd_Error;
 
+	@FindBy(xpath = "(//*[text()='Forgotten Password'])[1]")
+	WebElement forgotPasswordLink;
+
 	public void setEmail(String email) {
 		txtEmailAddress.sendKeys(email);
-
 	}
 
 	public void setPassword(String pwd) {
@@ -44,4 +46,14 @@ public class LoginPage extends BasePage {
 			return e.getMessage();
 		}
 	}
+
+	public boolean ForgetPassword() {
+
+		try {
+			return forgotPasswordLink.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
 }

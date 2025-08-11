@@ -12,7 +12,7 @@ public class AccountRegistrationPage extends BasePage {
 	}
 
 	@FindBy(xpath = "//input[@id='input-firstname']")
-	 WebElement txtFirstname;
+	WebElement txtFirstname;
 
 	@FindBy(xpath = "//input[@id='input-lastname']")
 	WebElement txtLasttname;
@@ -60,7 +60,9 @@ public class AccountRegistrationPage extends BasePage {
 	WebElement firstNameMandatory;
 
 	@FindBy(xpath = "//*[text()='Password confirmation does not match password!']")
-	  WebElement NoPwdConfirmationError;
+	WebElement NoPwdConfirmationError;
+
+ 
 
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
@@ -157,6 +159,7 @@ public class AccountRegistrationPage extends BasePage {
 		}
 	}
 
+ 
 	public void clickContinue() {
 		// sol1
 		btnContinue.click();
