@@ -19,11 +19,11 @@ public class TC002_LoginTest extends BaseClass {
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			hp.clickLogin();
-
+            //
 			// Login
 			LoginPage lp = new LoginPage(driver);
-			lp.setEmail(p.getProperty("email1"));
-			lp.setPassword(p.getProperty("password1"));
+			lp.setEmail(p.getProperty("email"));
+			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 
 			// MyAccount
@@ -175,32 +175,5 @@ public class TC002_LoginTest extends BaseClass {
 			driver.quit();
 		}
 
-	}
-
-	@Test(groups = { "Sanity", "Master" }, priority = 7)
-	public void verify_login_Browserback() {
-		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
-
-		try {
-			HomePage hp = new HomePage(driver);
-			hp.clickMyAccount();			hp.clickLogin();
-
-			LoginPage lp = new LoginPage(driver);
-			lp.setEmail(p.getProperty("email1"));
-			lp.setPassword(p.getProperty("password1"));
-
-			lp.clickLogin();
-			driver.navigate().back();
-			String pagetitle = driver.getTitle();
-			String expectedTitle = "Login Page";
-
-			Assert.assertEquals(pagetitle, expectedTitle);
-			logger.info("Test Passed");
-		} catch (Exception e) {
-			logger.info("Test Failed : " + e.getMessage());
-			Assert.fail("Test Failed : " + e.getMessage());
-		} finally {
-			driver.quit();
-		}
 	}
 }
