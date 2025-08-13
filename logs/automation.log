@@ -102,3 +102,55 @@ Session ID: 8ba7031bb6799624d89c88bb12fd2ec5
 2025-08-13 22:58:10 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
 2025-08-13 22:58:14 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
 2025-08-13 22:58:16 INFO  TC002_LoginTest:65 - Browser closed
+2025-08-13 23:19:59 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 23:20:15 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 23:20:23 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 23:20:36 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 23:21:00 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 23:21:15 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 23:24:13 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-13 23:24:14 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-13 23:24:16 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-13 23:24:16 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-13 23:24:20 INFO  TC001_AccountRegistration:46 - Validating expected message..
+2025-08-13 23:24:20 INFO  TC001_AccountRegistration:51 - Test passed
+2025-08-13 23:24:20 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-13 23:24:26 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-13 23:24:28 INFO  TC001_AccountRegistration:69 - Clicked on MyAccount Link.. 
+2025-08-13 23:24:30 INFO  TC001_AccountRegistration:71 - Clicked on Register Link.. 
+2025-08-13 23:24:30 INFO  TC001_AccountRegistration:75 - Providing customer details...
+2025-08-13 23:24:33 INFO  TC001_AccountRegistration:91 - Validating expected message..
+2025-08-13 23:24:34 INFO  TC001_AccountRegistration:96 - Test passed
+2025-08-13 23:24:34 INFO  TC001_AccountRegistration:101 - ***** Finished Test 2 *****
+2025-08-13 23:24:42 INFO  TC001_AccountRegistration:109 - ****verify_account_registration_Newsletter_No_Validation****
+2025-08-13 23:24:45 INFO  TC001_AccountRegistration:115 - Account Registartion page is opened
+2025-08-13 23:24:45 INFO  TC001_AccountRegistration:117 - Filling the register account details
+2025-08-13 23:24:46 INFO  TC001_AccountRegistration:124 - Your Password details
+2025-08-13 23:24:47 INFO  TC001_AccountRegistration:129 - Newsletter default option selection validation
+2025-08-13 23:24:48 INFO  TC001_AccountRegistration:135 - Validating expected message..
+2025-08-13 23:24:49 INFO  TC001_AccountRegistration:140 - Test passed
+2025-08-13 23:24:49 INFO  TC001_AccountRegistration:145 - ***** Finished 3rd test cases*****
+2025-08-13 23:24:58 INFO  TC001_AccountRegistration:153 - ****verify_account_registration_Newsletter_yes_Validation****
+2025-08-13 23:24:58 INFO  TC001_AccountRegistration:156 - Currently on home page clicking on My account and register
+2025-08-13 23:25:14 INFO  TC001_AccountRegistration:163 - Clicked Register and Navigated to Account Registration page
+2025-08-13 23:25:14 INFO  TC001_AccountRegistration:164 - Filling persnal information details
+2025-08-13 23:25:15 INFO  TC001_AccountRegistration:170 - Personal information is done
+2025-08-13 23:25:15 INFO  TC001_AccountRegistration:172 - Filling Your Password details
+2025-08-13 23:25:15 INFO  TC001_AccountRegistration:177 - Selecting Yes radio button in Newsletter
+2025-08-13 23:25:17 INFO  TC001_AccountRegistration:183 - Validating expected message..
+2025-08-13 23:25:17 INFO  TC001_AccountRegistration:187 - Test passed
+2025-08-13 23:25:17 INFO  TC001_AccountRegistration:194 - ***** Finished 4th test case test cases*****
+2025-08-13 23:25:22 INFO  TC001_AccountRegistration:201 - ****verify_account_registration_Different password****
+2025-08-13 23:25:27 INFO  TC001_AccountRegistration:227 - Test Passed
+2025-08-13 23:25:27 INFO  TC001_AccountRegistration:232 - ***** Finished 5th test case test cases*****
+2025-08-13 23:25:31 INFO  TC001_AccountRegistration:240 - ****verify_account_registration_Different password****
+2025-08-13 23:25:36 INFO  TC001_AccountRegistration:262 - Test is Passed
+2025-08-13 23:25:36 INFO  TC001_AccountRegistration:267 - 6th Test Excution is completed
+2025-08-13 23:25:41 INFO  TC001_AccountRegistration:274 - ****verify_account_registration_Already exist Email error***
+2025-08-13 23:25:46 INFO  TC001_AccountRegistration:298 - Test Passed
+2025-08-13 23:25:51 INFO  TC001_AccountRegistration:312 - ****verify_account_registration_InvalidEmail***
+2025-08-13 23:25:57 INFO  TC001_AccountRegistration:336 - Test Passed
+2025-08-13 23:26:06 INFO  TC001_AccountRegistration:349 - ****verify_account_registration_InvalidEmail***
+2025-08-13 23:26:10 INFO  TC001_AccountRegistration:373 - Test Passed
+2025-08-13 23:26:20 INFO  TC001_AccountRegistration:386 - ****verify_account_registration_InvalidEmail***
+2025-08-13 23:26:24 INFO  TC001_AccountRegistration:410 - Test Passed
