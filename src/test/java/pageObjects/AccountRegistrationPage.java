@@ -62,7 +62,23 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath = "//*[text()='Password confirmation does not match password!']")
 	WebElement NoPwdConfirmationError;
 
- 
+	@FindBy(xpath = "//*[@name='agree']")
+	WebElement newPrivacy;
+
+	@FindBy(xpath = "//*[@class='btn btn-primary']")
+	WebElement newContinue;
+
+	public void privacyEnable() {
+	//	newPrivacy.click();
+		if (!newPrivacy.isSelected()) {
+			newPrivacy.click();
+		}
+	}
+
+	public void newCtn() {
+		//newContinue.click();
+		newContinue.submit();
+	}
 
 	public void setFirstName(String fname) {
 		txtFirstname.sendKeys(fname);
@@ -159,7 +175,6 @@ public class AccountRegistrationPage extends BasePage {
 		}
 	}
 
- 
 	public void clickContinue() {
 		// sol1
 		btnContinue.click();

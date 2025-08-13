@@ -1,593 +1,104 @@
-2025-08-11 07:12:03 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 07:12:03 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 07:12:04 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 07:12:04 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 07:12:06 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 07:12:06 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 07:12:06 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 07:12:09 INFO  TC001_AccountRegistration:60 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 07:12:10 INFO  TC001_AccountRegistration:65 - Clicked on MyAccount Link.. 
-2025-08-11 07:12:11 INFO  TC001_AccountRegistration:68 - Clicked on Register Link.. 
-2025-08-11 07:12:11 INFO  TC001_AccountRegistration:72 - Providing customer details...
-2025-08-11 07:12:12 INFO  TC001_AccountRegistration:88 - Validating expected message..
-2025-08-11 07:12:12 INFO  TC001_AccountRegistration:93 - Test passed
-2025-08-11 07:12:12 INFO  TC001_AccountRegistration:98 - ***** Finished Test 2 *****
-2025-08-11 07:12:15 INFO  TC001_AccountRegistration:105 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 07:12:17 INFO  TC001_AccountRegistration:111 - Account Registartion page is opened
-2025-08-11 07:12:17 INFO  TC001_AccountRegistration:113 - Filling the register account details
-2025-08-11 07:12:17 INFO  TC001_AccountRegistration:120 - Your Password details
-2025-08-11 07:12:18 INFO  TC001_AccountRegistration:125 - Newsletter default option selection validation
-2025-08-11 07:12:18 INFO  TC001_AccountRegistration:131 - Validating expected message..
-2025-08-11 07:12:19 INFO  TC001_AccountRegistration:136 - Test passed
-2025-08-11 07:12:19 INFO  TC001_AccountRegistration:141 - ***** Finished 3rd test cases*****
-2025-08-11 07:12:21 INFO  TC001_AccountRegistration:148 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 07:12:21 INFO  TC001_AccountRegistration:151 - Currently on home page clicking on My account and register
-2025-08-11 07:12:23 INFO  TC001_AccountRegistration:157 - Clicked Register and Navigated to Account Registration page
-2025-08-11 07:12:23 INFO  TC001_AccountRegistration:158 - Filling persnal information details
-2025-08-11 07:12:23 INFO  TC001_AccountRegistration:164 - Personal information is done
-2025-08-11 07:12:23 INFO  TC001_AccountRegistration:166 - Filling Your Password details
-2025-08-11 07:12:24 INFO  TC001_AccountRegistration:171 - Selecting Yes radio button in Newsletter
-2025-08-11 07:12:25 INFO  TC001_AccountRegistration:177 - Validating expected message..
-2025-08-11 07:12:25 INFO  TC001_AccountRegistration:181 - Test passed
-2025-08-11 07:12:25 INFO  TC001_AccountRegistration:188 - ***** Finished 4th test case test cases*****
-2025-08-11 07:12:28 INFO  TC001_AccountRegistration:194 - ****verify_account_registration_Different password****
-2025-08-11 07:12:31 INFO  TC001_AccountRegistration:220 - Test Passed
-2025-08-11 07:12:31 INFO  TC001_AccountRegistration:225 - ***** Finished 5th test case test cases*****
-2025-08-11 07:12:34 INFO  TC001_AccountRegistration:233 - ****verify_account_registration_Different password****
-2025-08-11 07:12:38 INFO  TC001_AccountRegistration:255 - Test is Passed
-2025-08-11 07:12:38 INFO  TC001_AccountRegistration:260 - 6th Test Excution is completed
-2025-08-11 07:12:41 INFO  TC001_AccountRegistration:267 - ****verify_account_registration_Already exist Email error***
-2025-08-11 07:12:44 INFO  TC001_AccountRegistration:291 - Test Passed
-2025-08-11 07:12:47 INFO  TC001_AccountRegistration:302 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:12:50 INFO  TC001_AccountRegistration:326 - Test Passed
-2025-08-11 07:12:54 INFO  TC001_AccountRegistration:337 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:12:56 INFO  TC001_AccountRegistration:361 - Test Passed
-2025-08-11 07:12:59 INFO  TC001_AccountRegistration:372 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:13:02 INFO  TC001_AccountRegistration:396 - Test Passed
-2025-08-11 07:13:05 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:13:07 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:16:52 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:16:54 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:32:06 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:32:08 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:32:11 INFO  TC002_LoginTest:42 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:32:23 INFO  TC002_LoginTest:62 - Browser closed
-2025-08-11 07:32:27 INFO  TC002_LoginTest:42 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:32:38 INFO  TC002_LoginTest:62 - Browser closed
-2025-08-11 07:32:42 INFO  TC002_LoginTest:42 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:32:54 INFO  TC002_LoginTest:62 - Browser closed
-2025-08-11 07:33:31 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:33:33 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:33:37 INFO  TC002_LoginTest:42 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:33:39 INFO  TC002_LoginTest:57 - Test Passed
-2025-08-11 07:33:39 INFO  TC002_LoginTest:62 - Browser closed
-2025-08-11 07:36:18 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:36:21 INFO  TC002_LoginTest:38 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:36:25 INFO  TC002_LoginTest:45 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:36:28 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 07:36:28 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 07:39:41 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 07:39:42 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 07:39:43 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 07:39:43 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 07:39:44 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 07:39:45 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 07:39:45 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 07:39:50 INFO  TC001_AccountRegistration:61 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 07:39:51 INFO  TC001_AccountRegistration:66 - Clicked on MyAccount Link.. 
-2025-08-11 07:39:52 INFO  TC001_AccountRegistration:69 - Clicked on Register Link.. 
-2025-08-11 07:39:52 INFO  TC001_AccountRegistration:73 - Providing customer details...
-2025-08-11 07:39:54 INFO  TC001_AccountRegistration:89 - Validating expected message..
-2025-08-11 07:39:54 INFO  TC001_AccountRegistration:94 - Test passed
-2025-08-11 07:39:54 INFO  TC001_AccountRegistration:99 - ***** Finished Test 2 *****
-2025-08-11 07:39:57 INFO  TC001_AccountRegistration:107 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 07:39:59 INFO  TC001_AccountRegistration:113 - Account Registartion page is opened
-2025-08-11 07:39:59 INFO  TC001_AccountRegistration:115 - Filling the register account details
-2025-08-11 07:39:59 INFO  TC001_AccountRegistration:122 - Your Password details
-2025-08-11 07:39:59 INFO  TC001_AccountRegistration:127 - Newsletter default option selection validation
-2025-08-11 07:40:01 INFO  TC001_AccountRegistration:133 - Validating expected message..
-2025-08-11 07:40:01 INFO  TC001_AccountRegistration:138 - Test passed
-2025-08-11 07:40:01 INFO  TC001_AccountRegistration:143 - ***** Finished 3rd test cases*****
-2025-08-11 07:40:07 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 07:40:07 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 07:40:08 INFO  TC001_AccountRegistration:160 - Clicked Register and Navigated to Account Registration page
-2025-08-11 07:40:08 INFO  TC001_AccountRegistration:161 - Filling persnal information details
-2025-08-11 07:40:08 INFO  TC001_AccountRegistration:167 - Personal information is done
-2025-08-11 07:40:08 INFO  TC001_AccountRegistration:169 - Filling Your Password details
-2025-08-11 07:40:09 INFO  TC001_AccountRegistration:174 - Selecting Yes radio button in Newsletter
-2025-08-11 07:40:10 INFO  TC001_AccountRegistration:180 - Validating expected message..
-2025-08-11 07:40:10 INFO  TC001_AccountRegistration:184 - Test passed
-2025-08-11 07:40:10 INFO  TC001_AccountRegistration:191 - ***** Finished 4th test case test cases*****
-2025-08-11 07:40:14 INFO  TC001_AccountRegistration:198 - ****verify_account_registration_Different password****
-2025-08-11 07:40:19 INFO  TC001_AccountRegistration:224 - Test Passed
-2025-08-11 07:40:19 INFO  TC001_AccountRegistration:229 - ***** Finished 5th test case test cases*****
-2025-08-11 07:40:25 INFO  TC001_AccountRegistration:237 - ****verify_account_registration_Different password****
-2025-08-11 07:40:29 INFO  TC001_AccountRegistration:259 - Test is Passed
-2025-08-11 07:40:29 INFO  TC001_AccountRegistration:264 - 6th Test Excution is completed
-2025-08-11 07:40:33 INFO  TC001_AccountRegistration:271 - ****verify_account_registration_Already exist Email error***
-2025-08-11 07:40:36 INFO  TC001_AccountRegistration:295 - Test Passed
-2025-08-11 07:40:40 INFO  TC001_AccountRegistration:309 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:40:44 INFO  TC001_AccountRegistration:333 - Test Passed
-2025-08-11 07:40:48 INFO  TC001_AccountRegistration:346 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:40:51 INFO  TC001_AccountRegistration:370 - Test Passed
-2025-08-11 07:40:55 INFO  TC001_AccountRegistration:383 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:40:58 INFO  TC001_AccountRegistration:407 - Test Passed
-2025-08-11 07:41:05 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:41:07 INFO  TC002_LoginTest:38 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:41:10 INFO  TC002_LoginTest:45 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:41:13 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 07:41:13 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 07:45:37 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 07:45:38 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 07:45:39 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 07:45:39 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 07:45:41 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 07:45:41 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 07:45:41 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 07:45:45 INFO  TC001_AccountRegistration:61 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 07:45:46 INFO  TC001_AccountRegistration:66 - Clicked on MyAccount Link.. 
-2025-08-11 07:45:47 INFO  TC001_AccountRegistration:69 - Clicked on Register Link.. 
-2025-08-11 07:45:47 INFO  TC001_AccountRegistration:73 - Providing customer details...
-2025-08-11 07:45:49 INFO  TC001_AccountRegistration:89 - Validating expected message..
-2025-08-11 07:45:49 INFO  TC001_AccountRegistration:94 - Test passed
-2025-08-11 07:45:49 INFO  TC001_AccountRegistration:99 - ***** Finished Test 2 *****
-2025-08-11 07:45:54 INFO  TC001_AccountRegistration:107 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 07:45:55 INFO  TC001_AccountRegistration:113 - Account Registartion page is opened
-2025-08-11 07:45:55 INFO  TC001_AccountRegistration:115 - Filling the register account details
-2025-08-11 07:45:56 INFO  TC001_AccountRegistration:122 - Your Password details
-2025-08-11 07:45:57 INFO  TC001_AccountRegistration:127 - Newsletter default option selection validation
-2025-08-11 07:45:58 INFO  TC001_AccountRegistration:133 - Validating expected message..
-2025-08-11 07:45:58 INFO  TC001_AccountRegistration:138 - Test passed
-2025-08-11 07:45:58 INFO  TC001_AccountRegistration:143 - ***** Finished 3rd test cases*****
-2025-08-11 07:46:02 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 07:46:02 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 07:46:04 INFO  TC001_AccountRegistration:160 - Clicked Register and Navigated to Account Registration page
-2025-08-11 07:46:04 INFO  TC001_AccountRegistration:161 - Filling persnal information details
-2025-08-11 07:46:04 INFO  TC001_AccountRegistration:167 - Personal information is done
-2025-08-11 07:46:04 INFO  TC001_AccountRegistration:169 - Filling Your Password details
-2025-08-11 07:46:05 INFO  TC001_AccountRegistration:174 - Selecting Yes radio button in Newsletter
-2025-08-11 07:46:06 INFO  TC001_AccountRegistration:180 - Validating expected message..
-2025-08-11 07:46:06 INFO  TC001_AccountRegistration:184 - Test passed
-2025-08-11 07:46:06 INFO  TC001_AccountRegistration:191 - ***** Finished 4th test case test cases*****
-2025-08-11 07:46:10 INFO  TC001_AccountRegistration:198 - ****verify_account_registration_Different password****
-2025-08-11 07:46:14 INFO  TC001_AccountRegistration:224 - Test Passed
-2025-08-11 07:46:14 INFO  TC001_AccountRegistration:229 - ***** Finished 5th test case test cases*****
-2025-08-11 07:46:18 INFO  TC001_AccountRegistration:237 - ****verify_account_registration_Different password****
-2025-08-11 07:46:23 INFO  TC001_AccountRegistration:259 - Test is Passed
-2025-08-11 07:46:23 INFO  TC001_AccountRegistration:264 - 6th Test Excution is completed
-2025-08-11 07:46:27 INFO  TC001_AccountRegistration:271 - ****verify_account_registration_Already exist Email error***
-2025-08-11 07:46:30 INFO  TC001_AccountRegistration:295 - Test Passed
-2025-08-11 07:46:34 INFO  TC001_AccountRegistration:309 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:46:38 INFO  TC001_AccountRegistration:333 - Test Passed
-2025-08-11 07:46:42 INFO  TC001_AccountRegistration:346 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:46:45 INFO  TC001_AccountRegistration:370 - Test Passed
-2025-08-11 07:46:50 INFO  TC001_AccountRegistration:383 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:46:53 INFO  TC001_AccountRegistration:407 - Test Passed
-2025-08-11 07:46:57 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:47:00 INFO  TC002_LoginTest:38 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:47:04 INFO  TC002_LoginTest:45 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:47:06 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 07:47:06 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 07:47:13 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:47:15 INFO  TC002_LoginTest:88 - Test Passed
-2025-08-11 07:47:15 INFO  TC002_LoginTest:93 - Browser closed
-2025-08-11 07:56:35 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 07:56:35 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 07:56:36 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 07:56:36 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 07:56:39 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 07:56:39 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 07:56:39 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 07:56:43 INFO  TC001_AccountRegistration:61 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 07:56:43 INFO  TC001_AccountRegistration:66 - Clicked on MyAccount Link.. 
-2025-08-11 07:56:44 INFO  TC001_AccountRegistration:69 - Clicked on Register Link.. 
-2025-08-11 07:56:44 INFO  TC001_AccountRegistration:73 - Providing customer details...
-2025-08-11 07:56:46 INFO  TC001_AccountRegistration:89 - Validating expected message..
-2025-08-11 07:56:46 INFO  TC001_AccountRegistration:94 - Test passed
-2025-08-11 07:56:46 INFO  TC001_AccountRegistration:99 - ***** Finished Test 2 *****
-2025-08-11 07:56:50 INFO  TC001_AccountRegistration:107 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 07:56:51 INFO  TC001_AccountRegistration:113 - Account Registartion page is opened
-2025-08-11 07:56:51 INFO  TC001_AccountRegistration:115 - Filling the register account details
-2025-08-11 07:56:52 INFO  TC001_AccountRegistration:122 - Your Password details
-2025-08-11 07:56:53 INFO  TC001_AccountRegistration:127 - Newsletter default option selection validation
-2025-08-11 07:56:54 INFO  TC001_AccountRegistration:133 - Validating expected message..
-2025-08-11 07:56:54 INFO  TC001_AccountRegistration:138 - Test passed
-2025-08-11 07:56:54 INFO  TC001_AccountRegistration:143 - ***** Finished 3rd test cases*****
-2025-08-11 07:56:57 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 07:56:57 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 07:56:59 INFO  TC001_AccountRegistration:160 - Clicked Register and Navigated to Account Registration page
-2025-08-11 07:56:59 INFO  TC001_AccountRegistration:161 - Filling persnal information details
-2025-08-11 07:57:00 INFO  TC001_AccountRegistration:167 - Personal information is done
-2025-08-11 07:57:00 INFO  TC001_AccountRegistration:169 - Filling Your Password details
-2025-08-11 07:57:00 INFO  TC001_AccountRegistration:174 - Selecting Yes radio button in Newsletter
-2025-08-11 07:57:01 INFO  TC001_AccountRegistration:180 - Validating expected message..
-2025-08-11 07:57:11 INFO  TC001_AccountRegistration:191 - ***** Finished 4th test case test cases*****
-2025-08-11 07:57:15 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 07:57:15 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 07:57:16 INFO  TC001_AccountRegistration:160 - Clicked Register and Navigated to Account Registration page
-2025-08-11 07:57:16 INFO  TC001_AccountRegistration:161 - Filling persnal information details
-2025-08-11 07:57:17 INFO  TC001_AccountRegistration:167 - Personal information is done
-2025-08-11 07:57:17 INFO  TC001_AccountRegistration:169 - Filling Your Password details
-2025-08-11 07:57:18 INFO  TC001_AccountRegistration:174 - Selecting Yes radio button in Newsletter
-2025-08-11 07:57:19 INFO  TC001_AccountRegistration:180 - Validating expected message..
-2025-08-11 07:57:19 INFO  TC001_AccountRegistration:184 - Test passed
-2025-08-11 07:57:19 INFO  TC001_AccountRegistration:191 - ***** Finished 4th test case test cases*****
-2025-08-11 07:57:23 INFO  TC001_AccountRegistration:198 - ****verify_account_registration_Different password****
-2025-08-11 07:57:25 INFO  TC001_AccountRegistration:224 - Test Passed
-2025-08-11 07:57:25 INFO  TC001_AccountRegistration:229 - ***** Finished 5th test case test cases*****
-2025-08-11 07:57:29 INFO  TC001_AccountRegistration:237 - ****verify_account_registration_Different password****
-2025-08-11 07:57:34 INFO  TC001_AccountRegistration:259 - Test is Passed
-2025-08-11 07:57:34 INFO  TC001_AccountRegistration:264 - 6th Test Excution is completed
-2025-08-11 07:57:37 INFO  TC001_AccountRegistration:271 - ****verify_account_registration_Already exist Email error***
-2025-08-11 07:57:40 INFO  TC001_AccountRegistration:295 - Test Passed
-2025-08-11 07:57:44 INFO  TC001_AccountRegistration:309 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:57:47 INFO  TC001_AccountRegistration:333 - Test Passed
-2025-08-11 07:57:51 INFO  TC001_AccountRegistration:346 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:57:54 INFO  TC001_AccountRegistration:370 - Test Passed
-2025-08-11 07:57:58 INFO  TC001_AccountRegistration:383 - ****verify_account_registration_InvalidEmail***
-2025-08-11 07:58:00 INFO  TC001_AccountRegistration:407 - Test Passed
-2025-08-11 07:58:03 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 07:58:06 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 07:58:10 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 07:58:13 INFO  TC002_LoginTest:59 - Test Passed
-2025-08-11 07:58:13 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 07:58:16 INFO  TC002_LoginTest:72 - ****** Startign TC_002_LoginTest_Method 3 *****
-2025-08-11 07:58:19 INFO  TC002_LoginTest:87 - Test Passed
-2025-08-11 07:58:19 INFO  TC002_LoginTest:92 - Browser closed
-2025-08-11 07:58:24 INFO  TC002_LoginTest:100 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 07:58:36 INFO  TC002_LoginTest:116 - Test Failed : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login']"}
+2025-08-13 22:12:50 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-13 22:13:00 ERROR TC001_AccountRegistration:53 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='My Account']"}
   (Session info: chrome=138.0.7204.185)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53928648c52b061c0f732197f47c22bf, findElement {value=//input[@value='Login'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54816/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53928648c52b061c0f732197f47c22bf
-2025-08-11 07:58:36 INFO  TC002_LoginTest:119 - Test completed
-2025-08-11 07:58:39 INFO  TC002_LoginTest:100 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 07:58:51 INFO  TC002_LoginTest:116 - Test Failed : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login']"}
-  (Session info: chrome=138.0.7204.185)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f9e7e006420d0a239688a0d6b86b5c43, findElement {value=//input[@value='Login'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54850/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f9e7e006420d0a239688a0d6b86b5c43
-2025-08-11 07:58:51 INFO  TC002_LoginTest:119 - Test completed
-2025-08-11 07:58:55 INFO  TC002_LoginTest:100 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 07:59:06 INFO  TC002_LoginTest:116 - Test Failed : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login']"}
-  (Session info: chrome=138.0.7204.185)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [50652633e940643f4f3e471508c6d1d5, findElement {value=//input[@value='Login'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54879/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 50652633e940643f4f3e471508c6d1d5
-2025-08-11 07:59:06 INFO  TC002_LoginTest:119 - Test completed
-2025-08-11 08:01:35 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:01:38 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:01:45 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:01:47 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 08:01:50 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:01:53 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 08:02:19 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:02:19 INFO  TC002_LoginTest:61 - Test Failed : no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=138.0.7204.185)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [343edd446efe6876c491267a231b2b93, findElement {using=xpath, value=//span[normalize-space()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54994/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 343edd446efe6876c491267a231b2b93
-2025-08-11 08:02:19 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 08:02:42 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:02:44 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:02:50 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:02:53 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 08:02:56 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:02:58 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 08:03:02 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:03:04 INFO  TC002_LoginTest:64 - Browser closed
-2025-08-11 08:05:01 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:05:06 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:05:09 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:05:12 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 08:05:12 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:05:18 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
-2025-08-11 08:05:20 INFO  TC002_LoginTest:88 - Test Passed
-2025-08-11 08:05:20 INFO  TC002_LoginTest:93 - Browser closed
-2025-08-11 08:05:24 INFO  TC002_LoginTest:101 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 08:05:35 INFO  TC002_LoginTest:118 - Test Failed : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login']"}
-  (Session info: chrome=138.0.7204.185)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bac3a05804fe2f13d0778f9a1bd7b705, findElement {using=xpath, value=//input[@value='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55248}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55248/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bac3a05804fe2f13d0778f9a1bd7b705
-2025-08-11 08:05:35 INFO  TC002_LoginTest:121 - Test completed
-2025-08-11 08:05:39 INFO  TC002_LoginTest:101 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 08:05:50 INFO  TC002_LoginTest:118 - Test Failed : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login']"}
-  (Session info: chrome=138.0.7204.185)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b17df3b426893206aa3c99b7f9fb139b, findElement {using=xpath, value=//input[@value='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b17df3b426893206aa3c99b7f9fb139b
-2025-08-11 08:05:50 INFO  TC002_LoginTest:121 - Test completed
-2025-08-11 08:05:54 INFO  TC002_LoginTest:101 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 08:06:06 INFO  TC002_LoginTest:118 - Test Failed : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login']"}
-  (Session info: chrome=138.0.7204.185)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c14408a239e09b1753abd2ab41df01f8, findElement {using=xpath, value=//input[@value='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55311/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c14408a239e09b1753abd2ab41df01f8
-2025-08-11 08:06:06 INFO  TC002_LoginTest:121 - Test completed
-2025-08-11 08:06:42 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:06:44 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:06:47 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:06:50 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 08:06:50 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:06:54 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
-2025-08-11 08:06:56 INFO  TC002_LoginTest:88 - Test Passed
-2025-08-11 08:06:56 INFO  TC002_LoginTest:93 - Browser closed
-2025-08-11 08:06:59 INFO  TC002_LoginTest:101 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 08:07:01 INFO  TC002_LoginTest:117 - Test Passed
-2025-08-11 08:07:01 INFO  TC002_LoginTest:122 - Test completed
-2025-08-11 08:08:29 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:08:32 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:08:35 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:08:38 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:08:43 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:08:45 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:08:49 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:08:51 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:10:30 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:10:32 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:10:35 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:10:38 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 08:10:38 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:10:45 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
-2025-08-11 08:10:47 INFO  TC002_LoginTest:89 - Test Passed
-2025-08-11 08:10:47 INFO  TC002_LoginTest:94 - Browser closed
-2025-08-11 08:10:53 INFO  TC002_LoginTest:102 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 08:10:54 INFO  TC002_LoginTest:119 - Test Passed
-2025-08-11 08:10:54 INFO  TC002_LoginTest:124 - Test completed
-2025-08-11 08:14:08 INFO  TC002_LoginTest:132 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 08:14:10 INFO  TC002_LoginTest:146 - Test Passed
-2025-08-11 08:14:10 INFO  TC002_LoginTest:151 - Test completed
-2025-08-11 08:14:15 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:14:18 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:14:23 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:14:24 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:14:30 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:14:32 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:14:35 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:14:38 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:15:55 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:15:57 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:16:01 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:16:03 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:16:07 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:16:09 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:16:13 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:16:14 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:18:20 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:18:23 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:18:27 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:18:29 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:18:34 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:18:36 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:18:39 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:18:41 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:19:35 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:19:40 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:19:44 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:19:45 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:19:48 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:19:50 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:19:54 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:19:56 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:20:23 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:20:26 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:20:29 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:20:32 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:20:35 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:20:38 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:20:41 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:20:43 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:21:55 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:21:58 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:22:01 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:22:04 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:22:10 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:22:11 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:22:15 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:22:17 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:25:46 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 08:25:49 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 08:26:01 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:26:04 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:26:17 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:26:19 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 08:26:37 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 08:26:38 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 09:50:36 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 09:50:39 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 09:50:44 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 09:50:48 INFO  TC002_LoginTest:60 - Test Passed
-2025-08-11 09:50:48 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 09:50:52 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
-2025-08-11 09:50:55 INFO  TC002_LoginTest:89 - Test Passed
-2025-08-11 09:50:55 INFO  TC002_LoginTest:94 - Browser closed
-2025-08-11 09:50:59 INFO  TC002_LoginTest:102 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 09:51:03 INFO  TC002_LoginTest:124 - Test completed
-2025-08-11 09:51:07 INFO  TC002_LoginTest:102 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 09:51:09 INFO  TC002_LoginTest:124 - Test completed
-2025-08-11 09:51:13 INFO  TC002_LoginTest:102 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 09:51:17 INFO  TC002_LoginTest:124 - Test completed
-2025-08-11 09:53:02 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 09:53:02 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 09:53:03 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 09:53:03 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 09:53:06 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 09:53:06 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 09:53:06 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 09:53:10 INFO  TC001_AccountRegistration:61 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 09:53:10 INFO  TC001_AccountRegistration:66 - Clicked on MyAccount Link.. 
-2025-08-11 09:53:11 INFO  TC001_AccountRegistration:69 - Clicked on Register Link.. 
-2025-08-11 09:53:11 INFO  TC001_AccountRegistration:73 - Providing customer details...
-2025-08-11 09:53:14 INFO  TC001_AccountRegistration:89 - Validating expected message..
-2025-08-11 09:53:14 INFO  TC001_AccountRegistration:94 - Test passed
-2025-08-11 09:53:14 INFO  TC001_AccountRegistration:99 - ***** Finished Test 2 *****
-2025-08-11 09:53:17 INFO  TC001_AccountRegistration:107 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 09:53:18 INFO  TC001_AccountRegistration:113 - Account Registartion page is opened
-2025-08-11 09:53:18 INFO  TC001_AccountRegistration:115 - Filling the register account details
-2025-08-11 09:53:19 INFO  TC001_AccountRegistration:122 - Your Password details
-2025-08-11 09:53:19 INFO  TC001_AccountRegistration:127 - Newsletter default option selection validation
-2025-08-11 09:53:21 INFO  TC001_AccountRegistration:133 - Validating expected message..
-2025-08-11 09:53:21 INFO  TC001_AccountRegistration:138 - Test passed
-2025-08-11 09:53:21 INFO  TC001_AccountRegistration:143 - ***** Finished 3rd test cases*****
-2025-08-11 09:53:24 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 09:53:24 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 09:53:25 INFO  TC001_AccountRegistration:160 - Clicked Register and Navigated to Account Registration page
-2025-08-11 09:53:25 INFO  TC001_AccountRegistration:161 - Filling persnal information details
-2025-08-11 09:53:25 INFO  TC001_AccountRegistration:167 - Personal information is done
-2025-08-11 09:53:25 INFO  TC001_AccountRegistration:169 - Filling Your Password details
-2025-08-11 09:53:26 INFO  TC001_AccountRegistration:174 - Selecting Yes radio button in Newsletter
-2025-08-11 09:53:27 INFO  TC001_AccountRegistration:180 - Validating expected message..
-2025-08-11 09:53:28 INFO  TC001_AccountRegistration:184 - Test passed
-2025-08-11 09:53:28 INFO  TC001_AccountRegistration:191 - ***** Finished 4th test case test cases*****
-2025-08-11 09:53:30 INFO  TC001_AccountRegistration:198 - ****verify_account_registration_Different password****
-2025-08-11 09:53:33 INFO  TC001_AccountRegistration:224 - Test Passed
-2025-08-11 09:53:33 INFO  TC001_AccountRegistration:229 - ***** Finished 5th test case test cases*****
-2025-08-11 09:53:36 INFO  TC001_AccountRegistration:237 - ****verify_account_registration_Different password****
-2025-08-11 09:53:41 INFO  TC001_AccountRegistration:259 - Test is Passed
-2025-08-11 09:53:41 INFO  TC001_AccountRegistration:264 - 6th Test Excution is completed
-2025-08-11 09:53:43 INFO  TC001_AccountRegistration:271 - ****verify_account_registration_Already exist Email error***
-2025-08-11 09:53:47 INFO  TC001_AccountRegistration:295 - Test Passed
-2025-08-11 09:53:50 INFO  TC001_AccountRegistration:309 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:53:54 INFO  TC001_AccountRegistration:333 - Test Passed
-2025-08-11 09:53:56 INFO  TC001_AccountRegistration:346 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:54:00 INFO  TC001_AccountRegistration:370 - Test Passed
-2025-08-11 09:54:04 INFO  TC001_AccountRegistration:383 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:54:08 INFO  TC001_AccountRegistration:407 - Test Passed
-2025-08-11 09:55:59 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 09:56:00 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 09:56:01 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 09:56:01 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 09:56:05 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 09:56:05 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 09:56:05 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 09:56:10 INFO  TC001_AccountRegistration:61 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 09:56:10 INFO  TC001_AccountRegistration:66 - Clicked on MyAccount Link.. 
-2025-08-11 09:56:12 INFO  TC001_AccountRegistration:69 - Clicked on Register Link.. 
-2025-08-11 09:56:12 INFO  TC001_AccountRegistration:73 - Providing customer details...
-2025-08-11 09:56:15 INFO  TC001_AccountRegistration:89 - Validating expected message..
-2025-08-11 09:56:15 INFO  TC001_AccountRegistration:94 - Test passed
-2025-08-11 09:56:15 INFO  TC001_AccountRegistration:99 - ***** Finished Test 2 *****
-2025-08-11 09:56:19 INFO  TC001_AccountRegistration:107 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 09:56:20 INFO  TC001_AccountRegistration:113 - Account Registartion page is opened
-2025-08-11 09:56:20 INFO  TC001_AccountRegistration:115 - Filling the register account details
-2025-08-11 09:56:21 INFO  TC001_AccountRegistration:122 - Your Password details
-2025-08-11 09:56:22 INFO  TC001_AccountRegistration:127 - Newsletter default option selection validation
-2025-08-11 09:56:23 INFO  TC001_AccountRegistration:133 - Validating expected message..
-2025-08-11 09:56:23 INFO  TC001_AccountRegistration:138 - Test passed
-2025-08-11 09:56:23 INFO  TC001_AccountRegistration:143 - ***** Finished 3rd test cases*****
-2025-08-11 09:56:26 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 09:56:26 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 09:56:32 INFO  TC001_AccountRegistration:161 - Clicked Register and Navigated to Account Registration page
-2025-08-11 09:56:32 INFO  TC001_AccountRegistration:162 - Filling persnal information details
-2025-08-11 09:56:33 INFO  TC001_AccountRegistration:168 - Personal information is done
-2025-08-11 09:56:33 INFO  TC001_AccountRegistration:170 - Filling Your Password details
-2025-08-11 09:56:34 INFO  TC001_AccountRegistration:175 - Selecting Yes radio button in Newsletter
-2025-08-11 09:56:36 INFO  TC001_AccountRegistration:181 - Validating expected message..
-2025-08-11 09:56:36 INFO  TC001_AccountRegistration:185 - Test passed
-2025-08-11 09:56:36 INFO  TC001_AccountRegistration:192 - ***** Finished 4th test case test cases*****
-2025-08-11 09:56:40 INFO  TC001_AccountRegistration:199 - ****verify_account_registration_Different password****
-2025-08-11 09:56:44 INFO  TC001_AccountRegistration:225 - Test Passed
-2025-08-11 09:56:44 INFO  TC001_AccountRegistration:230 - ***** Finished 5th test case test cases*****
-2025-08-11 09:56:49 INFO  TC001_AccountRegistration:238 - ****verify_account_registration_Different password****
-2025-08-11 09:56:54 INFO  TC001_AccountRegistration:260 - Test is Passed
-2025-08-11 09:56:54 INFO  TC001_AccountRegistration:265 - 6th Test Excution is completed
-2025-08-11 09:56:57 INFO  TC001_AccountRegistration:272 - ****verify_account_registration_Already exist Email error***
-2025-08-11 09:57:02 INFO  TC001_AccountRegistration:296 - Test Passed
-2025-08-11 09:57:05 INFO  TC001_AccountRegistration:310 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:57:10 INFO  TC001_AccountRegistration:334 - Test Passed
-2025-08-11 09:57:12 INFO  TC001_AccountRegistration:347 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:57:16 INFO  TC001_AccountRegistration:371 - Test Passed
-2025-08-11 09:57:18 INFO  TC001_AccountRegistration:384 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:57:22 INFO  TC001_AccountRegistration:408 - Test Passed
-2025-08-11 09:58:11 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 09:58:11 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 09:58:12 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 09:58:12 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 09:58:14 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 09:58:15 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 09:58:15 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 09:58:19 INFO  TC001_AccountRegistration:61 - ****TC001_verify_account_registration_EmailConfirmation****
-2025-08-11 09:58:21 INFO  TC001_AccountRegistration:66 - Clicked on MyAccount Link.. 
-2025-08-11 09:58:22 INFO  TC001_AccountRegistration:69 - Clicked on Register Link.. 
-2025-08-11 09:58:22 INFO  TC001_AccountRegistration:73 - Providing customer details...
-2025-08-11 09:58:24 INFO  TC001_AccountRegistration:89 - Validating expected message..
-2025-08-11 09:58:24 INFO  TC001_AccountRegistration:94 - Test passed
-2025-08-11 09:58:24 INFO  TC001_AccountRegistration:99 - ***** Finished Test 2 *****
-2025-08-11 09:58:29 INFO  TC001_AccountRegistration:107 - ****verify_account_registration_Newsletter_No_Validation****
-2025-08-11 09:58:30 INFO  TC001_AccountRegistration:113 - Account Registartion page is opened
-2025-08-11 09:58:30 INFO  TC001_AccountRegistration:115 - Filling the register account details
-2025-08-11 09:58:31 INFO  TC001_AccountRegistration:122 - Your Password details
-2025-08-11 09:58:32 INFO  TC001_AccountRegistration:127 - Newsletter default option selection validation
-2025-08-11 09:58:33 INFO  TC001_AccountRegistration:133 - Validating expected message..
-2025-08-11 09:58:33 INFO  TC001_AccountRegistration:138 - Test passed
-2025-08-11 09:58:33 INFO  TC001_AccountRegistration:143 - ***** Finished 3rd test cases*****
-2025-08-11 09:58:38 INFO  TC001_AccountRegistration:151 - ****verify_account_registration_Newsletter_yes_Validation****
-2025-08-11 09:58:38 INFO  TC001_AccountRegistration:154 - Currently on home page clicking on My account and register
-2025-08-11 09:58:44 INFO  TC001_AccountRegistration:161 - Clicked Register and Navigated to Account Registration page
-2025-08-11 09:58:44 INFO  TC001_AccountRegistration:162 - Filling persnal information details
-2025-08-11 09:58:44 INFO  TC001_AccountRegistration:168 - Personal information is done
-2025-08-11 09:58:44 INFO  TC001_AccountRegistration:170 - Filling Your Password details
-2025-08-11 09:58:45 INFO  TC001_AccountRegistration:175 - Selecting Yes radio button in Newsletter
-2025-08-11 09:58:46 INFO  TC001_AccountRegistration:181 - Validating expected message..
-2025-08-11 09:58:47 INFO  TC001_AccountRegistration:185 - Test passed
-2025-08-11 09:58:47 INFO  TC001_AccountRegistration:192 - ***** Finished 4th test case test cases*****
-2025-08-11 09:58:52 INFO  TC001_AccountRegistration:199 - ****verify_account_registration_Different password****
-2025-08-11 09:58:57 INFO  TC001_AccountRegistration:225 - Test Passed
-2025-08-11 09:58:57 INFO  TC001_AccountRegistration:230 - ***** Finished 5th test case test cases*****
-2025-08-11 09:59:02 INFO  TC001_AccountRegistration:238 - ****verify_account_registration_Different password****
-2025-08-11 09:59:09 INFO  TC001_AccountRegistration:260 - Test is Passed
-2025-08-11 09:59:09 INFO  TC001_AccountRegistration:265 - 6th Test Excution is completed
-2025-08-11 09:59:14 INFO  TC001_AccountRegistration:272 - ****verify_account_registration_Already exist Email error***
-2025-08-11 09:59:19 INFO  TC001_AccountRegistration:296 - Test Passed
-2025-08-11 09:59:23 INFO  TC001_AccountRegistration:310 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:59:28 INFO  TC001_AccountRegistration:334 - Test Passed
-2025-08-11 09:59:32 INFO  TC001_AccountRegistration:347 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:59:37 INFO  TC001_AccountRegistration:371 - Test Passed
-2025-08-11 09:59:42 INFO  TC001_AccountRegistration:384 - ****verify_account_registration_InvalidEmail***
-2025-08-11 09:59:45 INFO  TC001_AccountRegistration:408 - Test Passed
-2025-08-11 10:25:09 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-08-11 10:25:10 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
-2025-08-11 10:25:12 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
-2025-08-11 10:25:12 INFO  TC001_AccountRegistration:29 - Providing customer details...
-2025-08-11 10:25:15 INFO  TC001_AccountRegistration:43 - Validating expected message..
-2025-08-11 10:25:15 INFO  TC001_AccountRegistration:48 - Test passed
-2025-08-11 10:25:15 INFO  TC001_AccountRegistration:53 - ***** Finished TC001_AccountRegistrationTest *****
-2025-08-11 10:26:43 INFO  TC002_LoginTest:159 - ****** Startign TC_002_LoginTest_Method 4 *****
-2025-08-11 10:26:45 INFO  TC002_LoginTest:174 - Test Completed
-2025-08-11 10:26:51 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
-2025-08-11 10:26:53 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
-2025-08-11 10:26:57 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 10:26:59 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 10:27:03 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 10:27:07 INFO  TC002_LoginTest:65 - Browser closed
-2025-08-11 10:27:11 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
-2025-08-11 10:27:13 INFO  TC002_LoginTest:65 - Browser closed
+Command: [8ba7031bb6799624d89c88bb12fd2ec5, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50505/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ba7031bb6799624d89c88bb12fd2ec5
+2025-08-13 22:13:00 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-13 22:14:05 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-13 22:14:05 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-13 22:14:07 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-13 22:14:07 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-13 22:14:08 INFO  TC001_AccountRegistration:46 - Validating expected message..
+2025-08-13 22:14:47 INFO  TC001_AccountRegistration:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-08-13 22:14:48 INFO  TC001_AccountRegistration:22 - Clicked on MyAccount Link.. 
+2025-08-13 22:14:50 INFO  TC001_AccountRegistration:25 - Clicked on Register Link.. 
+2025-08-13 22:14:50 INFO  TC001_AccountRegistration:29 - Providing customer details...
+2025-08-13 22:14:52 INFO  TC001_AccountRegistration:46 - Validating expected message..
+2025-08-13 22:14:52 INFO  TC001_AccountRegistration:51 - Test passed
+2025-08-13 22:14:52 INFO  TC001_AccountRegistration:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-08-13 22:15:11 INFO  TC001_AccountRegistration:64 - ****TC001_verify_account_registration_EmailConfirmation****
+2025-08-13 22:15:11 INFO  TC001_AccountRegistration:69 - Clicked on MyAccount Link.. 
+2025-08-13 22:15:20 INFO  TC001_AccountRegistration:71 - Clicked on Register Link.. 
+2025-08-13 22:15:20 INFO  TC001_AccountRegistration:75 - Providing customer details...
+2025-08-13 22:15:22 INFO  TC001_AccountRegistration:91 - Validating expected message..
+2025-08-13 22:15:23 INFO  TC001_AccountRegistration:96 - Test passed
+2025-08-13 22:15:23 INFO  TC001_AccountRegistration:101 - ***** Finished Test 2 *****
+2025-08-13 22:15:27 INFO  TC001_AccountRegistration:109 - ****verify_account_registration_Newsletter_No_Validation****
+2025-08-13 22:15:28 INFO  TC001_AccountRegistration:115 - Account Registartion page is opened
+2025-08-13 22:15:28 INFO  TC001_AccountRegistration:117 - Filling the register account details
+2025-08-13 22:15:29 INFO  TC001_AccountRegistration:124 - Your Password details
+2025-08-13 22:15:29 INFO  TC001_AccountRegistration:129 - Newsletter default option selection validation
+2025-08-13 22:15:34 INFO  TC001_AccountRegistration:135 - Validating expected message..
+2025-08-13 22:15:34 INFO  TC001_AccountRegistration:140 - Test passed
+2025-08-13 22:15:34 INFO  TC001_AccountRegistration:145 - ***** Finished 3rd test cases*****
+2025-08-13 22:15:39 INFO  TC001_AccountRegistration:153 - ****verify_account_registration_Newsletter_yes_Validation****
+2025-08-13 22:15:39 INFO  TC001_AccountRegistration:156 - Currently on home page clicking on My account and register
+2025-08-13 22:15:49 INFO  TC001_AccountRegistration:163 - Clicked Register and Navigated to Account Registration page
+2025-08-13 22:15:49 INFO  TC001_AccountRegistration:164 - Filling persnal information details
+2025-08-13 22:15:49 INFO  TC001_AccountRegistration:170 - Personal information is done
+2025-08-13 22:15:49 INFO  TC001_AccountRegistration:172 - Filling Your Password details
+2025-08-13 22:15:50 INFO  TC001_AccountRegistration:177 - Selecting Yes radio button in Newsletter
+2025-08-13 22:15:53 INFO  TC001_AccountRegistration:183 - Validating expected message..
+2025-08-13 22:15:53 INFO  TC001_AccountRegistration:187 - Test passed
+2025-08-13 22:15:53 INFO  TC001_AccountRegistration:194 - ***** Finished 4th test case test cases*****
+2025-08-13 22:16:26 INFO  TC001_AccountRegistration:201 - ****verify_account_registration_Different password****
+2025-08-13 22:16:29 INFO  TC001_AccountRegistration:227 - Test Passed
+2025-08-13 22:16:29 INFO  TC001_AccountRegistration:232 - ***** Finished 5th test case test cases*****
+2025-08-13 22:16:40 INFO  TC001_AccountRegistration:240 - ****verify_account_registration_Different password****
+2025-08-13 22:16:45 INFO  TC001_AccountRegistration:262 - Test is Passed
+2025-08-13 22:16:45 INFO  TC001_AccountRegistration:267 - 6th Test Excution is completed
+2025-08-13 22:16:58 INFO  TC001_AccountRegistration:274 - ****verify_account_registration_Already exist Email error***
+2025-08-13 22:17:03 INFO  TC001_AccountRegistration:298 - Test Passed
+2025-08-13 22:17:09 INFO  TC001_AccountRegistration:312 - ****verify_account_registration_InvalidEmail***
+2025-08-13 22:17:12 INFO  TC001_AccountRegistration:336 - Test Passed
+2025-08-13 22:17:19 INFO  TC001_AccountRegistration:349 - ****verify_account_registration_InvalidEmail***
+2025-08-13 22:17:23 INFO  TC001_AccountRegistration:373 - Test Passed
+2025-08-13 22:17:26 INFO  TC001_AccountRegistration:386 - ****verify_account_registration_InvalidEmail***
+2025-08-13 22:17:29 INFO  TC001_AccountRegistration:410 - Test Passed
+2025-08-13 22:17:35 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:17:47 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:17:51 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:18:02 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:18:08 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:18:19 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:22:47 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:22:58 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:23:19 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:23:30 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:24:03 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:24:16 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:25:12 INFO  TC002_LoginTest:159 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:25:13 INFO  TC002_LoginTest:174 - Test Completed
+2025-08-13 22:25:17 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:25:22 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:25:29 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:30:36 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:30:42 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:30:49 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:31:57 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:32:03 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:32:25 INFO  TC002_LoginTest:182 - ****** Startign TC_002_LoginTest_Method 4 *****
+2025-08-13 22:33:38 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:33:40 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:33:43 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
+2025-08-13 22:33:45 INFO  TC002_LoginTest:60 - Test Passed
+2025-08-13 22:33:45 INFO  TC002_LoginTest:65 - Browser closed
+2025-08-13 22:33:49 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
+2025-08-13 22:33:51 INFO  TC002_LoginTest:94 - Browser closed
+2025-08-13 22:33:56 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
+2025-08-13 22:33:58 INFO  TC002_LoginTest:94 - Browser closed
+2025-08-13 22:34:01 INFO  TC002_LoginTest:73 - ****** Startign TC_002_LoginTest_Method 3 *****
+2025-08-13 22:34:03 INFO  TC002_LoginTest:94 - Browser closed
+2025-08-13 22:52:28 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:52:32 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:52:36 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
+2025-08-13 22:52:38 INFO  TC002_LoginTest:65 - Browser closed
+2025-08-13 22:58:07 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2025-08-13 22:58:10 INFO  TC002_LoginTest:37 - ****** Finished TC_002_LoginTest *****
+2025-08-13 22:58:14 INFO  TC002_LoginTest:44 - ****** Startign TC_002_LoginTest_Method 2 *****
+2025-08-13 22:58:16 INFO  TC002_LoginTest:65 - Browser closed

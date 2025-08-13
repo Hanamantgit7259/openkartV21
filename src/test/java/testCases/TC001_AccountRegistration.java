@@ -30,7 +30,7 @@ public class TC001_AccountRegistration extends BaseClass {
 			regpage.setFirstName(randomeString().toUpperCase());
 			regpage.setLastName(randomeString().toUpperCase());
 			regpage.setEmail(randomeString() + "@gmail.com");// randomly generated the email
-			regpage.setTelephone(randomeNumber());
+			 regpage.setTelephone(randomeNumber());
 
 			String password = randomeAlphaNumberic();
 
@@ -40,10 +40,13 @@ public class TC001_AccountRegistration extends BaseClass {
 			regpage.setPrivacyPolicy();
 			regpage.clickContinue();
 
+			// regpage.privacyEnable();
+			// regpage.newCtn();
+
 			logger.info("Validating expected message..");
 
 			String confmsg = regpage.getConfirmationMsg();
-			Assert.assertEquals(confmsg, "Your Account Has Been Created!", "Confirmation message mismatch");
+			Assert.assertEquals(confmsg, "Your Account Has Been Created!");
 
 			logger.info("Test passed");
 		} catch (Exception e) {
@@ -64,7 +67,6 @@ public class TC001_AccountRegistration extends BaseClass {
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			logger.info("Clicked on MyAccount Link.. ");
-
 			hp.clickRegister();
 			logger.info("Clicked on Register Link.. ");
 
@@ -413,7 +415,6 @@ public class TC001_AccountRegistration extends BaseClass {
 		} finally {
 			driver.quit();
 		}
-
 	}
 
 }
