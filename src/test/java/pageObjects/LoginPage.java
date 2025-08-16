@@ -1,5 +1,8 @@
 package pageObjects;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,6 +28,12 @@ public class LoginPage extends BasePage {
 
 	@FindBy(xpath = "(//*[text()='Forgotten Password'])[1]")
 	WebElement forgotPasswordLink;
+
+	@FindBy(xpath = "((//div[@class='col-sm-6'])[1]//p)[2]")
+	WebElement RegisterAccount;
+
+	@FindBy(xpath = "//div[@class='list-group']/a")
+	List<WebElement> optionsRightside;
 
 	public void setEmail(String email) {
 		txtEmailAddress.sendKeys(email);
@@ -56,4 +65,27 @@ public class LoginPage extends BasePage {
 		}
 	}
 
+	public boolean Validate_RegisterAccount() {
+
+		try {
+			return RegisterAccount.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
+	public List<String> ValidateOptions() {
+	    List<String> optionsList = new ArrayList<>();
+
+	    try {
+	        for (int i = 0; i < optionsRightside.size(); i++) {
+	            String value = optionsRightside.get(i).getText();
+	            optionsList.add(value);
+	        }
+	    } catch (Exception e) {
+	        System.out.println(e.getMessage());
+	    }
+
+	    return optionsList;
+	}
 }

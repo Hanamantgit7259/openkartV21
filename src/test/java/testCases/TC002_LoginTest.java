@@ -1,49 +1,49 @@
 package testCases;
 
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.LoginSuccessfullPage;
 import pageObjects.MyAccountPage;
+import pageObjects.MyWishList;
 import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass {
 
 	@Test(groups = { "Sanity", "Master" }, priority = 1)
 	public void verify_login_Valid_Credentials() {
-		logger.info("****** Startign TC_002_LoginTest *****");
+		logger.info("****** Starting TC_002_LoginTest *****");
 
 		try {
-			// HomePage
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			hp.clickLogin();
-            //
-			// Login
+
 			LoginPage lp = new LoginPage(driver);
-			lp.setEmail(p.getProperty("email"));
-			lp.setPassword(p.getProperty("password"));
+			lp.setEmail(p.getProperty("emailnew"));
+			lp.setPassword(p.getProperty("passwordNew"));
 			lp.clickLogin();
 
-			// MyAccount
 			MyAccountPage macc = new MyAccountPage(driver);
 			boolean targetPage = macc.isMyAccountPageExists();
 
-			Assert.assertTrue(targetPage);// Assert.assertEquals(targetPage, true,"Login failed");
+			Assert.assertTrue(targetPage);
 		} catch (Exception e) {
 			Assert.fail();
 		} finally {
 			logger.info("****** Finished TC_002_LoginTest *****");
 			driver.quit();
-			//driver.close();
-			//
 		}
 	}
 
 	@Test(groups = { "Sanity", "Master" }, priority = 2)
 	public void verify_login_inValid_Credentials() {
-		logger.info("****** Startign TC_002_LoginTest_Method 2 *****");
+		logger.info("****** Starting TC_002_LoginTest_Method 2 *****");
 
 		try {
 			HomePage hm = new HomePage(driver);
@@ -51,13 +51,11 @@ public class TC002_LoginTest extends BaseClass {
 			hm.clickLogin();
 
 			LoginPage lp = new LoginPage(driver);
-			// lp.setEmail(p.getProperty("email") + "11");
 			lp.setEmail("hana@123");
 			lp.setPassword(p.getProperty("password"));
 			lp.clickLogin();
 
 			String emailActualError = lp.Email_pwd_ErrorValidations();
-
 			Assert.assertEquals(emailActualError, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test Passed");
 		} catch (Exception e) {
@@ -65,14 +63,13 @@ public class TC002_LoginTest extends BaseClass {
 			Assert.fail("Test Failed : " + e.getMessage());
 		} finally {
 			logger.info("Browser closed");
-			// driver.close();
 			driver.quit();
 		}
 	}
 
 	@Test(groups = { "Sanity", "Master" }, priority = 3)
 	public void verify_login_inValid_pwd() {
-		logger.info("****** Startign TC_002_LoginTest_Method 3 *****");
+		logger.info("****** Starting TC_002_LoginTest_Method 3 *****");
 
 		try {
 			HomePage hm = new HomePage(driver);
@@ -81,12 +78,10 @@ public class TC002_LoginTest extends BaseClass {
 
 			LoginPage lp = new LoginPage(driver);
 			lp.setEmail(p.getProperty("email"));
-			// lp.setPassword(p.getProperty("password")+"11");
 			lp.setPassword("111");
 			lp.clickLogin();
 
 			String emailActualError = lp.Email_pwd_ErrorValidations();
-
 			Assert.assertEquals(emailActualError, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test Passed");
 		} catch (Exception e) {
@@ -94,25 +89,21 @@ public class TC002_LoginTest extends BaseClass {
 			Assert.fail("Test Failed : " + e.getMessage());
 		} finally {
 			logger.info("Browser closed");
-			// driver.close();
 			driver.quit();
 		}
 	}
 
 	@Test(groups = { "Sanity", "Master" }, priority = 4)
 	public void verify_login_inValid_pwd_Email() {
-		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
+		logger.info("****** Starting TC_002_LoginTest_Method 4 *****");
 
 		try {
 			HomePage hm = new HomePage(driver);
 			hm.clickMyAccount();
-			// hm.clickRegister();
 			hm.clickLogin();
 
 			LoginPage lp = new LoginPage(driver);
-			// lp.setEmail(p.getProperty("email") + "11");
 			lp.setEmail("hana@123");
-			// lp.setPassword(p.getProperty("password")+"11");
 			lp.setPassword("111");
 			lp.clickLogin();
 
@@ -126,21 +117,18 @@ public class TC002_LoginTest extends BaseClass {
 			logger.info("Test completed");
 			driver.quit();
 		}
-
 	}
 
 	@Test(groups = { "Sanity", "Master" }, priority = 5)
 	public void verify_login_withoutEmail_pwd() {
-		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
+		logger.info("****** Starting TC_002_LoginTest_Method 5 *****");
 
 		try {
 			HomePage hm = new HomePage(driver);
 			hm.clickMyAccount();
-			// hm.clickRegister();
 			hm.clickLogin();
 
 			LoginPage lp = new LoginPage(driver);
-
 			lp.clickLogin();
 
 			String error = lp.Email_pwd_ErrorValidations();
@@ -153,12 +141,11 @@ public class TC002_LoginTest extends BaseClass {
 			logger.info("Test completed");
 			driver.quit();
 		}
-
 	}
 
 	@Test(groups = { "Sanity", "Master" }, priority = 6)
 	public void verify_login_Forget_Password_Evaluation() {
-		logger.info("****** Startign TC_002_LoginTest_Method 4 *****");
+		logger.info("****** Starting TC_002_LoginTest_Method 6 *****");
 
 		try {
 			HomePage hm = new HomePage(driver);
@@ -168,7 +155,7 @@ public class TC002_LoginTest extends BaseClass {
 			LoginPage lp = new LoginPage(driver);
 			boolean results = lp.ForgetPassword();
 
-			Assert.assertEquals(results, true);
+			Assert.assertTrue(results);
 		} catch (Exception e) {
 			logger.info("Test Failed : " + e.getMessage());
 			Assert.fail();
@@ -176,6 +163,119 @@ public class TC002_LoginTest extends BaseClass {
 			logger.info("Test Completed");
 			driver.quit();
 		}
-
 	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 7)
+	public void verify_login_Login_navigate_To_Different_pages() {
+		logger.info("****** Startign TC_002_LoginTest_Method 7 *****");
+
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+			lp.setEmail(p.getProperty("email1"));
+			lp.setPassword(p.getProperty("password1"));
+			lp.clickLogin();
+
+			LoginSuccessfullPage lsp = new LoginSuccessfullPage(driver);
+
+			String mord = lsp.myOrderTextvalidation();
+
+			Assert.assertEquals(mord, "My Orders");
+
+			String newsletter = lsp.newsLetterTextvalidation();
+
+			Assert.assertEquals(newsletter, "Newsletter");
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail();
+
+		} finally {
+			driver.quit();
+		}
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 8)
+	public void verify_login_Login_navigate_To_Different_pages_windows() {
+		logger.info("****** Startign TC_002_LoginTest_Method 8 *****");
+
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+			lp.setEmail(p.getProperty("email1"));
+			lp.setPassword(p.getProperty("password1"));
+			lp.clickLogin();
+
+			LoginSuccessfullPage lsp = new LoginSuccessfullPage(driver);
+
+			lsp.ClickModifyWishList();
+
+			MyWishList myw = new MyWishList(driver);
+			boolean results = myw.WishTextValidations();
+			Assert.assertEquals(results, true);
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail();
+
+		} finally {
+			driver.quit();
+		}
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 9)
+	public void verify_login_Regisert_Account_Text_validation() {
+		logger.info("****** Startign TC_002_LoginTest_Method 9 *****");
+
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+			boolean results = lp.Validate_RegisterAccount();
+
+			Assert.assertEquals(results, true);
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail();
+
+		} finally {
+			driver.quit();
+		}
+	}
+
+	@Test(groups = { "Sanity", "Master" }, priority = 10)
+	public void verify_login_options_Available_on_LoginPage() {
+		logger.info("****** Startign TC_002_LoginTest_Method 10 *****");
+
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+
+			LoginPage lp = new LoginPage(driver);
+
+			List<String> optionsList = lp.ValidateOptions();
+
+			// Print all options
+			for (String option : optionsList) {
+				System.out.println(option);
+			}
+
+		} catch (Exception e) {
+			logger.info("Test Failed : " + e.getMessage());
+			Assert.fail();
+
+		} finally {
+			driver.quit();
+		}
+	}
+
 }
